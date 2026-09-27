@@ -1,14 +1,22 @@
 import Fastify from "fastify";
+import { userRoutes } from "./modules/users/user.routes";
 
 const app = Fastify({
   logger: true,
 });
 
-app.get("/health", async () => {
-  return {
-    status: "ok",
-    service: "gitlens",
-  };
-});
+async function start(): Promise<void> {
+  try {
+    await app.register(userRoutes);
 
-app.listen({ port: 3000, host: "0.0.0.0" });
+    await app.listen({
+      port: 3000,
+      host: "0.0.0.0",
+    });
+  } catch (error) {
+    app.log.error(error);
+    process.exit(1);
+  }
+}
+
+void start();
