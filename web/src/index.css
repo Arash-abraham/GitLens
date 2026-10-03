@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-100: #09111F;
+  --color-dark-200: #0B1527;
+  --color-dark-300: #0F1C34;
+  --color-dark-400: #12213B;
+  --color-dark-500: #1A2B4A;
+  --color-blue-accent: #417BFF;
+  --color-blue-hover: #3371FF;
+  --color-blue-light: #B4C6EE;
+  --color-blue-glow: #417BFF33;
+  --color-text-muted: #7A8BA8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background: var(--color-dark-100);
+  color: white;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-dark-200);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-dark-500);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-blue-accent);
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s ease-out both;
+}
+
+.glow-blue {
+  box-shadow: 0 0 40px -10px var(--color-blue-glow);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #ffffff 0%, #B4C6EE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
