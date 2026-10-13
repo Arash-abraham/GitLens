@@ -1,0 +1,2249 @@
+{
+  "repo": "express",
+  "url": "https://github.com/expressjs/express.git",
+  "windowDays": 21,
+  "summary": {
+    "commits": 5696,
+    "botCommits": 55,
+    "filesTouched": 872,
+    "linesAdded": 113459,
+    "linesDeleted": 90999,
+    "blankLinesSkipped": 29194,
+    "binaryFileDiffs": 54,
+    "renames": 162,
+    "churnedLines": 32837,
+    "churnRatePct": 28.94,
+    "selfChurn": 31163,
+    "otherChurn": 1674,
+    "botAddedChurn": 14,
+    "cloneSec": 1.3,
+    "parseSec": 1,
+    "linesPerSec": 113459,
+    "generatedChurn": 13854,
+    "generatedChurnSharePct": 42.2
+  },
+  "topFilesRaw": [
+    {
+      "path": "docs/api.html",
+      "added": 14765,
+      "deleted": 14825,
+      "churned": 11415,
+      "churnRatePct": 77.3,
+      "selfChurn": 11415,
+      "otherChurn": 0,
+      "samples": [
+        {
+          "addedSha": "bafa300b0ff04c2ee5809379ca3608acd9c8aa3c",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "29641ae16a7da479a6b6b6c28c6c7328a2ac709f",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.8,
+          "line": "<p>Inherit from <code>connect.Server</code>.</p>\u0003"
+        },
+        {
+          "addedSha": "bafa300b0ff04c2ee5809379ca3608acd9c8aa3c",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "29641ae16a7da479a6b6b6c28c6c7328a2ac709f",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.8,
+          "line": "<span class=\"variable\">options</span>.<span class=\"variable\">locals</span> = <span class=\"variable\">options</span>.<span"
+        },
+        {
+          "addedSha": "bafa300b0ff04c2ee5809379ca3608acd9c8aa3c",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "29641ae16a7da479a6b6b6c28c6c7328a2ac709f",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.8,
+          "line": "<span class=\"variable\">options</span>.<span class=\"variable\">locals</span>.<span class=\"variable\">collectionLength</span"
+        },
+        {
+          "addedSha": "bafa300b0ff04c2ee5809379ca3608acd9c8aa3c",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "29641ae16a7da479a6b6b6c28c6c7328a2ac709f",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.8,
+          "line": "<span class=\"variable\">options</span>[<span class=\"variable\">name</span>] = <span class=\"variable\">val</span>;"
+        },
+        {
+          "addedSha": "bafa300b0ff04c2ee5809379ca3608acd9c8aa3c",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "29641ae16a7da479a6b6b6c28c6c7328a2ac709f",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.8,
+          "line": "<span class=\"variable\">options</span>.<span class=\"variable\">locals</span>.<span class=\"variable\">firstInCollection</spa"
+        },
+        {
+          "addedSha": "bafa300b0ff04c2ee5809379ca3608acd9c8aa3c",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "29641ae16a7da479a6b6b6c28c6c7328a2ac709f",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.8,
+          "line": "<span class=\"variable\">options</span>.<span class=\"variable\">locals</span>.<span class=\"variable\">indexInCollection</spa"
+        },
+        {
+          "addedSha": "bafa300b0ff04c2ee5809379ca3608acd9c8aa3c",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "29641ae16a7da479a6b6b6c28c6c7328a2ac709f",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.8,
+          "line": "<span class=\"variable\">options</span>.<span class=\"variable\">locals</span>.<span class=\"variable\">lastInCollection</span"
+        },
+        {
+          "addedSha": "bafa300b0ff04c2ee5809379ca3608acd9c8aa3c",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "29641ae16a7da479a6b6b6c28c6c7328a2ac709f",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.8,
+          "line": "<span class=\"variable\">root</span> = <span class=\"variable\">options</span>.<span class=\"variable\">root</span> || <span c"
+        },
+        {
+          "addedSha": "bafa300b0ff04c2ee5809379ca3608acd9c8aa3c",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "29641ae16a7da479a6b6b6c28c6c7328a2ac709f",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.8,
+          "line": "<span class=\"variable\">path</span> = <span class=\"variable\">root</span> + <span class=\"string\">'/'</span> + <span class="
+        },
+        {
+          "addedSha": "bafa300b0ff04c2ee5809379ca3608acd9c8aa3c",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "29641ae16a7da479a6b6b6c28c6c7328a2ac709f",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.8,
+          "line": "<span class=\"comment\">// TODO: error handling</span>"
+        }
+      ]
+    },
+    {
+      "path": "lib/express/core.js",
+      "added": 3316,
+      "deleted": 3279,
+      "churned": 2179,
+      "churnRatePct": 65.7,
+      "selfChurn": 1980,
+      "otherChurn": 199,
+      "samples": [
+        {
+          "addedSha": "e6f71f94d815a33c4cc098dc850420b27812c5d1",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "dca7e9bbd17e2d96a081754469d73f49d35a61c8",
+          "deletedAt": "2009-11-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.5,
+          "line": "// --- Core Modules"
+        },
+        {
+          "addedSha": "e6f71f94d815a33c4cc098dc850420b27812c5d1",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "dca7e9bbd17e2d96a081754469d73f49d35a61c8",
+          "deletedAt": "2009-11-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.5,
+          "line": "use(Express.BodyDecoder)"
+        },
+        {
+          "addedSha": "e6f71f94d815a33c4cc098dc850420b27812c5d1",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "dca7e9bbd17e2d96a081754469d73f49d35a61c8",
+          "deletedAt": "2009-11-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.5,
+          "line": "use(Express.MethodOverride)"
+        },
+        {
+          "addedSha": "e6f71f94d815a33c4cc098dc850420b27812c5d1",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "dca7e9bbd17e2d96a081754469d73f49d35a61c8",
+          "deletedAt": "2009-11-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.5,
+          "line": "use(Express.ContentLength)"
+        },
+        {
+          "addedSha": "e6f71f94d815a33c4cc098dc850420b27812c5d1",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "dca7e9bbd17e2d96a081754469d73f49d35a61c8",
+          "deletedAt": "2009-11-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.5,
+          "line": "use(Express.DefaultContentType)"
+        },
+        {
+          "addedSha": "e6f71f94d815a33c4cc098dc850420b27812c5d1",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "dca7e9bbd17e2d96a081754469d73f49d35a61c8",
+          "deletedAt": "2009-11-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.5,
+          "line": "use(Express.RedirectHelpers)"
+        },
+        {
+          "addedSha": "9463674964aec1b251fb83503de9a01f1c0c1da9",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "eda700ddc1e737d6c6739a50a46e735128781d25",
+          "deletedAt": "2009-12-01",
+          "deletedBy": "csausdev",
+          "ageDays": 1.1,
+          "line": "Express.halt('Page or file cannot be found', 'Not Found')"
+        },
+        {
+          "addedSha": "93c55b3e1d8c1df533a5f633655aa5fb6ba5d83b",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "eda700ddc1e737d6c6739a50a46e735128781d25",
+          "deletedAt": "2009-12-01",
+          "deletedBy": "csausdev",
+          "ageDays": 1.1,
+          "line": "Express.server.finished(this.response.body = body)"
+        },
+        {
+          "addedSha": "ebc9e6e459fc1eca6cbfbf5169074d5cff5ba384",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.7,
+          "line": "process.mixin(GLOBAL, require(\"sys\"))"
+        },
+        {
+          "addedSha": "ebc9e6e459fc1eca6cbfbf5169074d5cff5ba384",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.7,
+          "line": "var http = require(\"http\")"
+        }
+      ]
+    },
+    {
+      "path": "test/response.test.js",
+      "added": 3149,
+      "deleted": 3152,
+      "churned": 1784,
+      "churnRatePct": 56.7,
+      "selfChurn": 1782,
+      "otherChurn": 2,
+      "samples": [
+        {
+          "addedSha": "874975da5451ddd29fe309b1a13cfb32891b73cb",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "f0a09665dbd96c3bd0f93725a1b4821638c7f3aa",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 1.7,
+          "line": "{ body: '<p>test</p>', headers: { 'Content-Language': 'en', 'Content-Type': 'text/html; charset=utf8' }});"
+        },
+        {
+          "addedSha": "874975da5451ddd29fe309b1a13cfb32891b73cb",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "f0a09665dbd96c3bd0f93725a1b4821638c7f3aa",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 1.7,
+          "line": "{ body: '{\"foo\":\"bar\"}', status: 201, headers: { 'Content-Type': 'application/json; charset=utf8' }});"
+        },
+        {
+          "addedSha": "f0a09665dbd96c3bd0f93725a1b4821638c7f3aa",
+          "addedAt": "2010-07-07",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "838c47001753414307eabb40aeeaf1d6cecdc185",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "{ body: 'wahoo', headers: { 'Content-Type': 'text/plain; charset=utf-8' }});"
+        },
+        {
+          "addedSha": "874975da5451ddd29fe309b1a13cfb32891b73cb",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0d4b57df7ab48d88a9f5543353ad4be92c3035bf",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 1.7,
+          "line": "res.send({ foo: 'bar' }, {}, 201);"
+        },
+        {
+          "addedSha": "f0a09665dbd96c3bd0f93725a1b4821638c7f3aa",
+          "addedAt": "2010-07-07",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0d4b57df7ab48d88a9f5543353ad4be92c3035bf",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "{ body: '{\"foo\":\"bar\"}', status: 201, headers: { 'Content-Type': 'application/json' }});"
+        },
+        {
+          "addedSha": "395d14ab5852acca1d2482bbe913e31a3bdad991",
+          "addedAt": "2010-07-07",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "c8baa8f3495c3a35c31f48ed6d3507bf20ffa970",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "res.send('Oh shit!', 500);"
+        },
+        {
+          "addedSha": "395d14ab5852acca1d2482bbe913e31a3bdad991",
+          "addedAt": "2010-07-07",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "c8baa8f3495c3a35c31f48ed6d3507bf20ffa970",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "{ body: 'Oh shit!', status: 500 });"
+        },
+        {
+          "addedSha": "874975da5451ddd29fe309b1a13cfb32891b73cb",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "14280dfedb6513e43e5d90e59500d0c5a86a6031",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 1.7,
+          "line": "var express = require('express');"
+        },
+        {
+          "addedSha": "a4a17d171a86e9bfaabad314c24a9d055f2b87b9",
+          "addedAt": "2010-07-14",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "b75246e3ca1dae8933a939398c1e1c2a131fca40",
+          "deletedAt": "2010-07-14",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "app2.redirect = {"
+        },
+        {
+          "addedSha": "a4a17d171a86e9bfaabad314c24a9d055f2b87b9",
+          "addedAt": "2010-07-14",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "b75246e3ca1dae8933a939398c1e1c2a131fca40",
+          "deletedAt": "2010-07-14",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "google: 'http://google.com'"
+        }
+      ]
+    },
+    {
+      "path": "lib/express/view.js",
+      "added": 1287,
+      "deleted": 1287,
+      "churned": 732,
+      "churnRatePct": 56.9,
+      "selfChurn": 711,
+      "otherChurn": 21,
+      "samples": [
+        {
+          "addedSha": "7c733b832e7a099cf7549a74798d861994c6d455",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "Express.View = {"
+        },
+        {
+          "addedSha": "7c733b832e7a099cf7549a74798d861994c6d455",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "}"
+        },
+        {
+          "addedSha": "3a6ddd1ab78ead3c668e8ed85933c09f86276fd1",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "eaa399f69e3bd5f0ae66b9a42d88469a59eb18d1",
+          "deletedAt": "2009-12-10",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "// Express - View - Copyright TJ Holowaychuk <tj@vision-media.ca> (MIT Licensed)"
+        },
+        {
+          "addedSha": "eaa399f69e3bd5f0ae66b9a42d88469a59eb18d1",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "97359cb102a1e3cacaf5fb28059ecb73b8c4edf8",
+          "deletedAt": "2009-12-10",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "exports.render = function(view) {"
+        },
+        {
+          "addedSha": "97359cb102a1e3cacaf5fb28059ecb73b8c4edf8",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "6efb07d611e16d3853f4b3a45d4fa90034dac7e1",
+          "deletedAt": "2009-12-10",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "engine = require('support/' + ext)"
+        },
+        {
+          "addedSha": "97359cb102a1e3cacaf5fb28059ecb73b8c4edf8",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "143114b881b1bbbf3baa28bff37a39763a1e3f61",
+          "deletedAt": "2009-12-10",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "exports.render = function(view, options, fn) {"
+        },
+        {
+          "addedSha": "6efb07d611e16d3853f4b3a45d4fa90034dac7e1",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "143114b881b1bbbf3baa28bff37a39763a1e3f61",
+          "deletedAt": "2009-12-10",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "layout = options.layout || true"
+        },
+        {
+          "addedSha": "97359cb102a1e3cacaf5fb28059ecb73b8c4edf8",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "143114b881b1bbbf3baa28bff37a39763a1e3f61",
+          "deletedAt": "2009-12-10",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "halt(200, engine.parse(content, options))"
+        },
+        {
+          "addedSha": "6efb07d611e16d3853f4b3a45d4fa90034dac7e1",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "7bb85311121bfcadd75b33087c187a5c6e666ca5",
+          "deletedAt": "2009-12-11",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.1,
+          "line": "engine = require('support/' + ext),"
+        },
+        {
+          "addedSha": "143114b881b1bbbf3baa28bff37a39763a1e3f61",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "7bb85311121bfcadd75b33087c187a5c6e666ca5",
+          "deletedAt": "2009-12-11",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "render('layout.html.' + ext, process.mixin(options, {"
+        }
+      ]
+    },
+    {
+      "path": "docs/guide.1",
+      "added": 2546,
+      "deleted": 2546,
+      "churned": 656,
+      "churnRatePct": 25.8,
+      "selfChurn": 656,
+      "otherChurn": 0,
+      "samples": [
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "Express utilizes the HTTP verbs to provide a meaningful, expressive routing API\\. For example we may want to render a us"
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "Alternatively we may want to create, or \\fBPOST\\fR a user:"
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "."
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": ".IP \"\" 4"
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "."
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": ".nf"
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "app\\.post(\\'/user\\', function(){"
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "// \\.\\.\\. logic"
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "});"
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "."
+        }
+      ]
+    },
+    {
+      "path": "docs/guide.html",
+      "added": 2597,
+      "deleted": 2597,
+      "churned": 637,
+      "churnRatePct": 24.5,
+      "selfChurn": 635,
+      "otherChurn": 2,
+      "samples": [
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "can be done by defining the route below.</p>"
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "<p>Alternatively we may want to create, or <strong>POST</strong> a user:</p>"
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "<pre><code>app.post('/user', function(){"
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "// ... logic"
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "});"
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0ace97c8d4e6ccca2b85768619b914f95dc1d5b2",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "</code></pre>"
+        },
+        {
+          "addedSha": "9e3a0c61b8fa1916a85eea84725447d60f0c77c9",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "83d25551236cc3a6b2bb29a9a02972a45679af79",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "margin-left: 20px;"
+        },
+        {
+          "addedSha": "83d25551236cc3a6b2bb29a9a02972a45679af79",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "6e8413f568be8a4bfaf182e7c667930474abd35e",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "<h3 id=\"First-Application\">First Application</h3>"
+        },
+        {
+          "addedSha": "83d25551236cc3a6b2bb29a9a02972a45679af79",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "6e8413f568be8a4bfaf182e7c667930474abd35e",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "follows the same idiom by providing <em>express.createServer()</em> as shown below:</p>"
+        },
+        {
+          "addedSha": "6e8413f568be8a4bfaf182e7c667930474abd35e",
+          "addedAt": "2010-07-13",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "6e8413f568be8a4bfaf182e7c667930474abd35e",
+          "deletedAt": "2010-07-13",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "<h3 id=\"Configuration\">Configuration</h3>"
+        }
+      ]
+    },
+    {
+      "path": "package.json",
+      "added": 1591,
+      "deleted": 1482,
+      "churned": 614,
+      "churnRatePct": 38.6,
+      "selfChurn": 583,
+      "otherChurn": 31,
+      "samples": [
+        {
+          "addedSha": "903c2aa642616fc7f39cd5c1d97d2cde4185ce4b",
+          "addedAt": "2010-03-16",
+          "addedBy": "visionmedia",
+          "deletedSha": "d893009a8dc26bbe7b587fea3c9c5cdb4553a744",
+          "deletedAt": "2010-03-16",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.2,
+          "line": "\"version\": \"0.7.2\","
+        },
+        {
+          "addedSha": "d893009a8dc26bbe7b587fea3c9c5cdb4553a744",
+          "addedAt": "2010-03-16",
+          "addedBy": "visionmedia",
+          "deletedSha": "f56a33d22d4b06a28645ecae045be1bafc795b0f",
+          "deletedAt": "2010-03-16",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.1,
+          "line": "\"version\": \"0.7.3\","
+        },
+        {
+          "addedSha": "f56a33d22d4b06a28645ecae045be1bafc795b0f",
+          "addedAt": "2010-03-16",
+          "addedBy": "visionmedia",
+          "deletedSha": "934adb1e9f1b79d8f42bf5d6f781bf5eeaadafa5",
+          "deletedAt": "2010-03-17",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.1,
+          "line": "\"version\": \"0.7.4\","
+        },
+        {
+          "addedSha": "934adb1e9f1b79d8f42bf5d6f781bf5eeaadafa5",
+          "addedAt": "2010-03-17",
+          "addedBy": "visionmedia",
+          "deletedSha": "273a51a335694abd977e36a9b052bbd48190de78",
+          "deletedAt": "2010-03-19",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.6,
+          "line": "\"version\": \"0.7.5\","
+        },
+        {
+          "addedSha": "273a51a335694abd977e36a9b052bbd48190de78",
+          "addedAt": "2010-03-19",
+          "addedBy": "visionmedia",
+          "deletedSha": "3b49821e82bef2a94a3bda0fbb2fd4bc0d732842",
+          "deletedAt": "2010-03-19",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.3,
+          "line": "\"version\": \"0.7.6\","
+        },
+        {
+          "addedSha": "125533116008cd7e3a81b339a15f4a2059ae12ae",
+          "addedAt": "2010-04-14",
+          "addedBy": "visionmedia",
+          "deletedSha": "4467a00acd2e61a5d984bdf91397ffe00c8dde04",
+          "deletedAt": "2010-04-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 15.7,
+          "line": "\"version\": \"0.9.0\","
+        },
+        {
+          "addedSha": "4467a00acd2e61a5d984bdf91397ffe00c8dde04",
+          "addedAt": "2010-04-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "0ce39a4cf6424f30f6c243a20f2a1b1e46d909d2",
+          "deletedAt": "2010-05-06",
+          "deletedBy": "visionmedia",
+          "ageDays": 6.2,
+          "line": "\"version\": \"0.10.0\","
+        },
+        {
+          "addedSha": "7ad0803f2e92aa153ed72eeaa4de69f00c1c41b7",
+          "addedAt": "2010-05-31",
+          "addedBy": "visionmedia",
+          "deletedSha": "db2eb658ca8a257869621ab930ab3bf1dce830d9",
+          "deletedAt": "2010-06-01",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.8,
+          "line": "\"version\": \"0.12.0\","
+        },
+        {
+          "addedSha": "faf809851c0aa34b4711c429f08e72605f4b2497",
+          "addedAt": "2010-06-11",
+          "addedBy": "Aaron Heckmann",
+          "deletedSha": "cebee369d1d07d2e5cd6bf695e9b8f625e2eaf81",
+          "deletedAt": "2010-06-13",
+          "deletedBy": "Aaron Heckmann",
+          "ageDays": 2.9,
+          "line": "{ \"name\": \"Aaron Heckmann\", \"email\": \"aaron.heckmann+github@gmail.com\"}"
+        },
+        {
+          "addedSha": "faf809851c0aa34b4711c429f08e72605f4b2497",
+          "addedAt": "2010-06-11",
+          "addedBy": "Aaron Heckmann",
+          "deletedSha": "ea82eea9bb592cf485a079c102e1169379a3b671",
+          "deletedAt": "2010-06-15",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 4.8,
+          "line": "{ \"name\": \"TJ Holowaychuk\", \"email\": \"tj@vision-media.ca\"},"
+        }
+      ]
+    },
+    {
+      "path": "lib/response.js",
+      "added": 2897,
+      "deleted": 2013,
+      "churned": 513,
+      "churnRatePct": 17.7,
+      "selfChurn": 458,
+      "otherChurn": 55,
+      "samples": [
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "6a03a92f5f4eb9fc8512ab7c2497677ab7497e8b",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "if (this.headers[name] && ~multiple.indexOf(name)) {"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "6a03a92f5f4eb9fc8512ab7c2497677ab7497e8b",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "return this.headers[name] += '\\r\\n' + name + ': ' + val;"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "6a03a92f5f4eb9fc8512ab7c2497677ab7497e8b",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "} else {"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "6a03a92f5f4eb9fc8512ab7c2497677ab7497e8b",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "return this.headers[name] = val;"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "6a03a92f5f4eb9fc8512ab7c2497677ab7497e8b",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "}"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "99820e7edc24bbdcb616f748c7242ba769dba7ee",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": ", mime = utils.mime;"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "99820e7edc24bbdcb616f748c7242ba769dba7ee",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "http.ServerResponse.prototype.send = function(body, headers, status){"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "99820e7edc24bbdcb616f748c7242ba769dba7ee",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "http.ServerResponse.prototype.sendfile = function(path, fn){"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "99820e7edc24bbdcb616f748c7242ba769dba7ee",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "http.ServerResponse.prototype.contentType = function(type){"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "99820e7edc24bbdcb616f748c7242ba769dba7ee",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "http.ServerResponse.prototype.attachment = function(filename){"
+        }
+      ]
+    },
+    {
+      "path": "test/view.test.js",
+      "added": 1968,
+      "deleted": 2004,
+      "churned": 447,
+      "churnRatePct": 22.7,
+      "selfChurn": 425,
+      "otherChurn": 22,
+      "samples": [
+        {
+          "addedSha": "4c0704e338f3d80ff8fb594629466c780e28b23d",
+          "addedAt": "2010-07-05",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "3da75726d39bc07252b3400d15bec8e1080f25b8",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.6,
+          "line": "res.render('items.jade', { layout: false, locals: { items: ['one', 'two'] }});"
+        },
+        {
+          "addedSha": "4c0704e338f3d80ff8fb594629466c780e28b23d",
+          "addedAt": "2010-07-05",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "3da75726d39bc07252b3400d15bec8e1080f25b8",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.6,
+          "line": "{ body: '<ul><li>one</li><li>two</li></ul>' });"
+        },
+        {
+          "addedSha": "21f904db42d15247ef49edd7a58050376a07a511",
+          "addedAt": "2010-07-05",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "22100f7c3aa1ff8bdee21f370c1bbc41fa293177",
+          "deletedAt": "2010-07-08",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 2.7,
+          "line": "var express = require('express');"
+        },
+        {
+          "addedSha": "dc5caebbf860c5f77011be3c3aaabd1ac049c61e",
+          "addedAt": "2010-07-07",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "22100f7c3aa1ff8bdee21f370c1bbc41fa293177",
+          "deletedAt": "2010-07-08",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.8,
+          "line": "assert.response(app,"
+        },
+        {
+          "addedSha": "5544c5d5d42d1f3a38956241fb2f4baf48b9dba0",
+          "addedAt": "2010-07-08",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a32c7d5f07503c83f50485f1ac9a946a96072df7",
+          "deletedAt": "2010-07-08",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "// \"as\" collection option"
+        },
+        {
+          "addedSha": "edfb18b75af5adb1c341c29e26cd76c566ea73af",
+          "addedAt": "2010-07-08",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a32c7d5f07503c83f50485f1ac9a946a96072df7",
+          "deletedAt": "2010-07-08",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "// \"as\" this collection option"
+        },
+        {
+          "addedSha": "4c0704e338f3d80ff8fb594629466c780e28b23d",
+          "addedAt": "2010-07-05",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0e7d39aa1376fd1491661dfdd4f40ebd7cbb47d9",
+          "deletedAt": "2010-07-08",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 2.9,
+          "line": "var app = express.createServer();"
+        },
+        {
+          "addedSha": "22100f7c3aa1ff8bdee21f370c1bbc41fa293177",
+          "addedAt": "2010-07-08",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "bc5d31f86a4dd1e991c6f58e80edeb3a2b56f6b7",
+          "deletedAt": "2010-07-08",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.2,
+          "line": "connect = require('connect');"
+        },
+        {
+          "addedSha": "5842a3bba6a04472bacfeb1b210377de777e6539",
+          "addedAt": "2010-07-08",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "8db1138081a5b777bc219f2c0c91d5a3ff04ef9a",
+          "deletedAt": "2010-07-16",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 8.1,
+          "line": "app.get('/video', function(req, res){"
+        },
+        {
+          "addedSha": "5842a3bba6a04472bacfeb1b210377de777e6539",
+          "addedAt": "2010-07-08",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "8db1138081a5b777bc219f2c0c91d5a3ff04ef9a",
+          "deletedAt": "2010-07-16",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 8.1,
+          "line": "res.send(res.partial('video.jade', {"
+        }
+      ]
+    },
+    {
+      "path": "lib/router/index.js",
+      "added": 1953,
+      "deleted": 1917,
+      "churned": 409,
+      "churnRatePct": 20.9,
+      "selfChurn": 389,
+      "otherChurn": 20,
+      "samples": [
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "b6c0a9b1b50786d922754a22d6ca631e518d90a0",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "var utils = require('./utils')"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "* Provides Sinatra and Express-like routing capabilities."
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "* Examples:"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*     connect.router(function(app){"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*       app.get('/user/:id', function(req, res, next){"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*         // populates req.params.id"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*       });"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*       app.put('/user/:id', function(req, res, next){"
+        }
+      ]
+    }
+  ],
+  "topFilesSource": [
+    {
+      "path": "lib/express/core.js",
+      "added": 3316,
+      "deleted": 3279,
+      "churned": 2179,
+      "churnRatePct": 65.7,
+      "selfChurn": 1980,
+      "otherChurn": 199,
+      "samples": [
+        {
+          "addedSha": "e6f71f94d815a33c4cc098dc850420b27812c5d1",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "dca7e9bbd17e2d96a081754469d73f49d35a61c8",
+          "deletedAt": "2009-11-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.5,
+          "line": "// --- Core Modules"
+        },
+        {
+          "addedSha": "e6f71f94d815a33c4cc098dc850420b27812c5d1",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "dca7e9bbd17e2d96a081754469d73f49d35a61c8",
+          "deletedAt": "2009-11-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.5,
+          "line": "use(Express.BodyDecoder)"
+        },
+        {
+          "addedSha": "e6f71f94d815a33c4cc098dc850420b27812c5d1",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "dca7e9bbd17e2d96a081754469d73f49d35a61c8",
+          "deletedAt": "2009-11-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.5,
+          "line": "use(Express.MethodOverride)"
+        },
+        {
+          "addedSha": "e6f71f94d815a33c4cc098dc850420b27812c5d1",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "dca7e9bbd17e2d96a081754469d73f49d35a61c8",
+          "deletedAt": "2009-11-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.5,
+          "line": "use(Express.ContentLength)"
+        },
+        {
+          "addedSha": "e6f71f94d815a33c4cc098dc850420b27812c5d1",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "dca7e9bbd17e2d96a081754469d73f49d35a61c8",
+          "deletedAt": "2009-11-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.5,
+          "line": "use(Express.DefaultContentType)"
+        },
+        {
+          "addedSha": "e6f71f94d815a33c4cc098dc850420b27812c5d1",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "dca7e9bbd17e2d96a081754469d73f49d35a61c8",
+          "deletedAt": "2009-11-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.5,
+          "line": "use(Express.RedirectHelpers)"
+        },
+        {
+          "addedSha": "9463674964aec1b251fb83503de9a01f1c0c1da9",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "eda700ddc1e737d6c6739a50a46e735128781d25",
+          "deletedAt": "2009-12-01",
+          "deletedBy": "csausdev",
+          "ageDays": 1.1,
+          "line": "Express.halt('Page or file cannot be found', 'Not Found')"
+        },
+        {
+          "addedSha": "93c55b3e1d8c1df533a5f633655aa5fb6ba5d83b",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "eda700ddc1e737d6c6739a50a46e735128781d25",
+          "deletedAt": "2009-12-01",
+          "deletedBy": "csausdev",
+          "ageDays": 1.1,
+          "line": "Express.server.finished(this.response.body = body)"
+        },
+        {
+          "addedSha": "ebc9e6e459fc1eca6cbfbf5169074d5cff5ba384",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.7,
+          "line": "process.mixin(GLOBAL, require(\"sys\"))"
+        },
+        {
+          "addedSha": "ebc9e6e459fc1eca6cbfbf5169074d5cff5ba384",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.7,
+          "line": "var http = require(\"http\")"
+        }
+      ]
+    },
+    {
+      "path": "test/response.test.js",
+      "added": 3149,
+      "deleted": 3152,
+      "churned": 1784,
+      "churnRatePct": 56.7,
+      "selfChurn": 1782,
+      "otherChurn": 2,
+      "samples": [
+        {
+          "addedSha": "874975da5451ddd29fe309b1a13cfb32891b73cb",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "f0a09665dbd96c3bd0f93725a1b4821638c7f3aa",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 1.7,
+          "line": "{ body: '<p>test</p>', headers: { 'Content-Language': 'en', 'Content-Type': 'text/html; charset=utf8' }});"
+        },
+        {
+          "addedSha": "874975da5451ddd29fe309b1a13cfb32891b73cb",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "f0a09665dbd96c3bd0f93725a1b4821638c7f3aa",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 1.7,
+          "line": "{ body: '{\"foo\":\"bar\"}', status: 201, headers: { 'Content-Type': 'application/json; charset=utf8' }});"
+        },
+        {
+          "addedSha": "f0a09665dbd96c3bd0f93725a1b4821638c7f3aa",
+          "addedAt": "2010-07-07",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "838c47001753414307eabb40aeeaf1d6cecdc185",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "{ body: 'wahoo', headers: { 'Content-Type': 'text/plain; charset=utf-8' }});"
+        },
+        {
+          "addedSha": "874975da5451ddd29fe309b1a13cfb32891b73cb",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0d4b57df7ab48d88a9f5543353ad4be92c3035bf",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 1.7,
+          "line": "res.send({ foo: 'bar' }, {}, 201);"
+        },
+        {
+          "addedSha": "f0a09665dbd96c3bd0f93725a1b4821638c7f3aa",
+          "addedAt": "2010-07-07",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0d4b57df7ab48d88a9f5543353ad4be92c3035bf",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "{ body: '{\"foo\":\"bar\"}', status: 201, headers: { 'Content-Type': 'application/json' }});"
+        },
+        {
+          "addedSha": "395d14ab5852acca1d2482bbe913e31a3bdad991",
+          "addedAt": "2010-07-07",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "c8baa8f3495c3a35c31f48ed6d3507bf20ffa970",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "res.send('Oh shit!', 500);"
+        },
+        {
+          "addedSha": "395d14ab5852acca1d2482bbe913e31a3bdad991",
+          "addedAt": "2010-07-07",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "c8baa8f3495c3a35c31f48ed6d3507bf20ffa970",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "{ body: 'Oh shit!', status: 500 });"
+        },
+        {
+          "addedSha": "874975da5451ddd29fe309b1a13cfb32891b73cb",
+          "addedAt": "2010-07-06",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "14280dfedb6513e43e5d90e59500d0c5a86a6031",
+          "deletedAt": "2010-07-07",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 1.7,
+          "line": "var express = require('express');"
+        },
+        {
+          "addedSha": "a4a17d171a86e9bfaabad314c24a9d055f2b87b9",
+          "addedAt": "2010-07-14",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "b75246e3ca1dae8933a939398c1e1c2a131fca40",
+          "deletedAt": "2010-07-14",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "app2.redirect = {"
+        },
+        {
+          "addedSha": "a4a17d171a86e9bfaabad314c24a9d055f2b87b9",
+          "addedAt": "2010-07-14",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "b75246e3ca1dae8933a939398c1e1c2a131fca40",
+          "deletedAt": "2010-07-14",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "google: 'http://google.com'"
+        }
+      ]
+    },
+    {
+      "path": "lib/express/view.js",
+      "added": 1287,
+      "deleted": 1287,
+      "churned": 732,
+      "churnRatePct": 56.9,
+      "selfChurn": 711,
+      "otherChurn": 21,
+      "samples": [
+        {
+          "addedSha": "7c733b832e7a099cf7549a74798d861994c6d455",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "Express.View = {"
+        },
+        {
+          "addedSha": "7c733b832e7a099cf7549a74798d861994c6d455",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "}"
+        },
+        {
+          "addedSha": "3a6ddd1ab78ead3c668e8ed85933c09f86276fd1",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "eaa399f69e3bd5f0ae66b9a42d88469a59eb18d1",
+          "deletedAt": "2009-12-10",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "// Express - View - Copyright TJ Holowaychuk <tj@vision-media.ca> (MIT Licensed)"
+        },
+        {
+          "addedSha": "eaa399f69e3bd5f0ae66b9a42d88469a59eb18d1",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "97359cb102a1e3cacaf5fb28059ecb73b8c4edf8",
+          "deletedAt": "2009-12-10",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "exports.render = function(view) {"
+        },
+        {
+          "addedSha": "97359cb102a1e3cacaf5fb28059ecb73b8c4edf8",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "6efb07d611e16d3853f4b3a45d4fa90034dac7e1",
+          "deletedAt": "2009-12-10",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "engine = require('support/' + ext)"
+        },
+        {
+          "addedSha": "97359cb102a1e3cacaf5fb28059ecb73b8c4edf8",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "143114b881b1bbbf3baa28bff37a39763a1e3f61",
+          "deletedAt": "2009-12-10",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "exports.render = function(view, options, fn) {"
+        },
+        {
+          "addedSha": "6efb07d611e16d3853f4b3a45d4fa90034dac7e1",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "143114b881b1bbbf3baa28bff37a39763a1e3f61",
+          "deletedAt": "2009-12-10",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "layout = options.layout || true"
+        },
+        {
+          "addedSha": "97359cb102a1e3cacaf5fb28059ecb73b8c4edf8",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "143114b881b1bbbf3baa28bff37a39763a1e3f61",
+          "deletedAt": "2009-12-10",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "halt(200, engine.parse(content, options))"
+        },
+        {
+          "addedSha": "6efb07d611e16d3853f4b3a45d4fa90034dac7e1",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "7bb85311121bfcadd75b33087c187a5c6e666ca5",
+          "deletedAt": "2009-12-11",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.1,
+          "line": "engine = require('support/' + ext),"
+        },
+        {
+          "addedSha": "143114b881b1bbbf3baa28bff37a39763a1e3f61",
+          "addedAt": "2009-12-10",
+          "addedBy": "visionmedia",
+          "deletedSha": "7bb85311121bfcadd75b33087c187a5c6e666ca5",
+          "deletedAt": "2009-12-11",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "render('layout.html.' + ext, process.mixin(options, {"
+        }
+      ]
+    },
+    {
+      "path": "package.json",
+      "added": 1591,
+      "deleted": 1482,
+      "churned": 614,
+      "churnRatePct": 38.6,
+      "selfChurn": 583,
+      "otherChurn": 31,
+      "samples": [
+        {
+          "addedSha": "903c2aa642616fc7f39cd5c1d97d2cde4185ce4b",
+          "addedAt": "2010-03-16",
+          "addedBy": "visionmedia",
+          "deletedSha": "d893009a8dc26bbe7b587fea3c9c5cdb4553a744",
+          "deletedAt": "2010-03-16",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.2,
+          "line": "\"version\": \"0.7.2\","
+        },
+        {
+          "addedSha": "d893009a8dc26bbe7b587fea3c9c5cdb4553a744",
+          "addedAt": "2010-03-16",
+          "addedBy": "visionmedia",
+          "deletedSha": "f56a33d22d4b06a28645ecae045be1bafc795b0f",
+          "deletedAt": "2010-03-16",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.1,
+          "line": "\"version\": \"0.7.3\","
+        },
+        {
+          "addedSha": "f56a33d22d4b06a28645ecae045be1bafc795b0f",
+          "addedAt": "2010-03-16",
+          "addedBy": "visionmedia",
+          "deletedSha": "934adb1e9f1b79d8f42bf5d6f781bf5eeaadafa5",
+          "deletedAt": "2010-03-17",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.1,
+          "line": "\"version\": \"0.7.4\","
+        },
+        {
+          "addedSha": "934adb1e9f1b79d8f42bf5d6f781bf5eeaadafa5",
+          "addedAt": "2010-03-17",
+          "addedBy": "visionmedia",
+          "deletedSha": "273a51a335694abd977e36a9b052bbd48190de78",
+          "deletedAt": "2010-03-19",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.6,
+          "line": "\"version\": \"0.7.5\","
+        },
+        {
+          "addedSha": "273a51a335694abd977e36a9b052bbd48190de78",
+          "addedAt": "2010-03-19",
+          "addedBy": "visionmedia",
+          "deletedSha": "3b49821e82bef2a94a3bda0fbb2fd4bc0d732842",
+          "deletedAt": "2010-03-19",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.3,
+          "line": "\"version\": \"0.7.6\","
+        },
+        {
+          "addedSha": "125533116008cd7e3a81b339a15f4a2059ae12ae",
+          "addedAt": "2010-04-14",
+          "addedBy": "visionmedia",
+          "deletedSha": "4467a00acd2e61a5d984bdf91397ffe00c8dde04",
+          "deletedAt": "2010-04-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 15.7,
+          "line": "\"version\": \"0.9.0\","
+        },
+        {
+          "addedSha": "4467a00acd2e61a5d984bdf91397ffe00c8dde04",
+          "addedAt": "2010-04-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "0ce39a4cf6424f30f6c243a20f2a1b1e46d909d2",
+          "deletedAt": "2010-05-06",
+          "deletedBy": "visionmedia",
+          "ageDays": 6.2,
+          "line": "\"version\": \"0.10.0\","
+        },
+        {
+          "addedSha": "7ad0803f2e92aa153ed72eeaa4de69f00c1c41b7",
+          "addedAt": "2010-05-31",
+          "addedBy": "visionmedia",
+          "deletedSha": "db2eb658ca8a257869621ab930ab3bf1dce830d9",
+          "deletedAt": "2010-06-01",
+          "deletedBy": "visionmedia",
+          "ageDays": 0.8,
+          "line": "\"version\": \"0.12.0\","
+        },
+        {
+          "addedSha": "faf809851c0aa34b4711c429f08e72605f4b2497",
+          "addedAt": "2010-06-11",
+          "addedBy": "Aaron Heckmann",
+          "deletedSha": "cebee369d1d07d2e5cd6bf695e9b8f625e2eaf81",
+          "deletedAt": "2010-06-13",
+          "deletedBy": "Aaron Heckmann",
+          "ageDays": 2.9,
+          "line": "{ \"name\": \"Aaron Heckmann\", \"email\": \"aaron.heckmann+github@gmail.com\"}"
+        },
+        {
+          "addedSha": "faf809851c0aa34b4711c429f08e72605f4b2497",
+          "addedAt": "2010-06-11",
+          "addedBy": "Aaron Heckmann",
+          "deletedSha": "ea82eea9bb592cf485a079c102e1169379a3b671",
+          "deletedAt": "2010-06-15",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 4.8,
+          "line": "{ \"name\": \"TJ Holowaychuk\", \"email\": \"tj@vision-media.ca\"},"
+        }
+      ]
+    },
+    {
+      "path": "lib/response.js",
+      "added": 2897,
+      "deleted": 2013,
+      "churned": 513,
+      "churnRatePct": 17.7,
+      "selfChurn": 458,
+      "otherChurn": 55,
+      "samples": [
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "6a03a92f5f4eb9fc8512ab7c2497677ab7497e8b",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "if (this.headers[name] && ~multiple.indexOf(name)) {"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "6a03a92f5f4eb9fc8512ab7c2497677ab7497e8b",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "return this.headers[name] += '\\r\\n' + name + ': ' + val;"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "6a03a92f5f4eb9fc8512ab7c2497677ab7497e8b",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "} else {"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "6a03a92f5f4eb9fc8512ab7c2497677ab7497e8b",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "return this.headers[name] = val;"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "6a03a92f5f4eb9fc8512ab7c2497677ab7497e8b",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "}"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "99820e7edc24bbdcb616f748c7242ba769dba7ee",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": ", mime = utils.mime;"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "99820e7edc24bbdcb616f748c7242ba769dba7ee",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "http.ServerResponse.prototype.send = function(body, headers, status){"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "99820e7edc24bbdcb616f748c7242ba769dba7ee",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "http.ServerResponse.prototype.sendfile = function(path, fn){"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "99820e7edc24bbdcb616f748c7242ba769dba7ee",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "http.ServerResponse.prototype.contentType = function(type){"
+        },
+        {
+          "addedSha": "3d597a554dd08578690cdb70ae554295cefb1f5b",
+          "addedAt": "2011-02-04",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "99820e7edc24bbdcb616f748c7242ba769dba7ee",
+          "deletedAt": "2011-02-04",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "http.ServerResponse.prototype.attachment = function(filename){"
+        }
+      ]
+    },
+    {
+      "path": "test/view.test.js",
+      "added": 1968,
+      "deleted": 2004,
+      "churned": 447,
+      "churnRatePct": 22.7,
+      "selfChurn": 425,
+      "otherChurn": 22,
+      "samples": [
+        {
+          "addedSha": "4c0704e338f3d80ff8fb594629466c780e28b23d",
+          "addedAt": "2010-07-05",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "3da75726d39bc07252b3400d15bec8e1080f25b8",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.6,
+          "line": "res.render('items.jade', { layout: false, locals: { items: ['one', 'two'] }});"
+        },
+        {
+          "addedSha": "4c0704e338f3d80ff8fb594629466c780e28b23d",
+          "addedAt": "2010-07-05",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "3da75726d39bc07252b3400d15bec8e1080f25b8",
+          "deletedAt": "2010-07-06",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.6,
+          "line": "{ body: '<ul><li>one</li><li>two</li></ul>' });"
+        },
+        {
+          "addedSha": "21f904db42d15247ef49edd7a58050376a07a511",
+          "addedAt": "2010-07-05",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "22100f7c3aa1ff8bdee21f370c1bbc41fa293177",
+          "deletedAt": "2010-07-08",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 2.7,
+          "line": "var express = require('express');"
+        },
+        {
+          "addedSha": "dc5caebbf860c5f77011be3c3aaabd1ac049c61e",
+          "addedAt": "2010-07-07",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "22100f7c3aa1ff8bdee21f370c1bbc41fa293177",
+          "deletedAt": "2010-07-08",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.8,
+          "line": "assert.response(app,"
+        },
+        {
+          "addedSha": "5544c5d5d42d1f3a38956241fb2f4baf48b9dba0",
+          "addedAt": "2010-07-08",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a32c7d5f07503c83f50485f1ac9a946a96072df7",
+          "deletedAt": "2010-07-08",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "// \"as\" collection option"
+        },
+        {
+          "addedSha": "edfb18b75af5adb1c341c29e26cd76c566ea73af",
+          "addedAt": "2010-07-08",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a32c7d5f07503c83f50485f1ac9a946a96072df7",
+          "deletedAt": "2010-07-08",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "// \"as\" this collection option"
+        },
+        {
+          "addedSha": "4c0704e338f3d80ff8fb594629466c780e28b23d",
+          "addedAt": "2010-07-05",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "0e7d39aa1376fd1491661dfdd4f40ebd7cbb47d9",
+          "deletedAt": "2010-07-08",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 2.9,
+          "line": "var app = express.createServer();"
+        },
+        {
+          "addedSha": "22100f7c3aa1ff8bdee21f370c1bbc41fa293177",
+          "addedAt": "2010-07-08",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "bc5d31f86a4dd1e991c6f58e80edeb3a2b56f6b7",
+          "deletedAt": "2010-07-08",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0.2,
+          "line": "connect = require('connect');"
+        },
+        {
+          "addedSha": "5842a3bba6a04472bacfeb1b210377de777e6539",
+          "addedAt": "2010-07-08",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "8db1138081a5b777bc219f2c0c91d5a3ff04ef9a",
+          "deletedAt": "2010-07-16",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 8.1,
+          "line": "app.get('/video', function(req, res){"
+        },
+        {
+          "addedSha": "5842a3bba6a04472bacfeb1b210377de777e6539",
+          "addedAt": "2010-07-08",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "8db1138081a5b777bc219f2c0c91d5a3ff04ef9a",
+          "deletedAt": "2010-07-16",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 8.1,
+          "line": "res.send(res.partial('video.jade', {"
+        }
+      ]
+    },
+    {
+      "path": "lib/router/index.js",
+      "added": 1953,
+      "deleted": 1917,
+      "churned": 409,
+      "churnRatePct": 20.9,
+      "selfChurn": 389,
+      "otherChurn": 20,
+      "samples": [
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "b6c0a9b1b50786d922754a22d6ca631e518d90a0",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "var utils = require('./utils')"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "* Provides Sinatra and Express-like routing capabilities."
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "* Examples:"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*     connect.router(function(app){"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*       app.get('/user/:id', function(req, res, next){"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*         // populates req.params.id"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*       });"
+        },
+        {
+          "addedSha": "6722716fa7d35ed844715d016a508be9d13ee741",
+          "addedAt": "2011-04-25",
+          "addedBy": "Tj Holowaychuk",
+          "deletedSha": "a9992b56474a8b5157013f7f9d49d81e82256049",
+          "deletedAt": "2011-04-25",
+          "deletedBy": "Tj Holowaychuk",
+          "ageDays": 0,
+          "line": "*       app.put('/user/:id', function(req, res, next){"
+        }
+      ]
+    },
+    {
+      "path": "spec/spec.core.js",
+      "added": 693,
+      "deleted": 690,
+      "churned": 402,
+      "churnRatePct": 58,
+      "selfChurn": 392,
+      "otherChurn": 10,
+      "samples": [
+        {
+          "addedSha": "62296c0104ed93e2631216c1879ab80be1fae2d2",
+          "addedAt": "2009-06-26",
+          "addedBy": "visionmedia",
+          "deletedSha": "9128dc18d5a8356c67a8b136e426811664508630",
+          "deletedAt": "2009-06-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 3.9,
+          "line": "describe '.normalizePath()'"
+        },
+        {
+          "addedSha": "62296c0104ed93e2631216c1879ab80be1fae2d2",
+          "addedAt": "2009-06-26",
+          "addedBy": "visionmedia",
+          "deletedSha": "9128dc18d5a8356c67a8b136e426811664508630",
+          "deletedAt": "2009-06-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 3.9,
+          "line": "it 'should strip leading / trailing slashes'"
+        },
+        {
+          "addedSha": "62296c0104ed93e2631216c1879ab80be1fae2d2",
+          "addedAt": "2009-06-26",
+          "addedBy": "visionmedia",
+          "deletedSha": "9128dc18d5a8356c67a8b136e426811664508630",
+          "deletedAt": "2009-06-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 3.9,
+          "line": "Express.normalizePath('/foo/bar/').should.eql 'foo/bar'"
+        },
+        {
+          "addedSha": "4a0706f6fbcb2d448bc89541d450a93267f39bae",
+          "addedAt": "2009-06-26",
+          "addedBy": "visionmedia",
+          "deletedSha": "9128dc18d5a8356c67a8b136e426811664508630",
+          "deletedAt": "2009-06-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 3.9,
+          "line": "end"
+        },
+        {
+          "addedSha": "62296c0104ed93e2631216c1879ab80be1fae2d2",
+          "addedAt": "2009-06-26",
+          "addedBy": "visionmedia",
+          "deletedSha": "9128dc18d5a8356c67a8b136e426811664508630",
+          "deletedAt": "2009-06-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 3.9,
+          "line": "it 'should strip leading / trailing whitespace'"
+        },
+        {
+          "addedSha": "62296c0104ed93e2631216c1879ab80be1fae2d2",
+          "addedAt": "2009-06-26",
+          "addedBy": "visionmedia",
+          "deletedSha": "9128dc18d5a8356c67a8b136e426811664508630",
+          "deletedAt": "2009-06-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 3.9,
+          "line": "Express.normalizePath('  /foo/').should.eql 'foo'"
+        },
+        {
+          "addedSha": "4a0706f6fbcb2d448bc89541d450a93267f39bae",
+          "addedAt": "2009-06-26",
+          "addedBy": "visionmedia",
+          "deletedSha": "9128dc18d5a8356c67a8b136e426811664508630",
+          "deletedAt": "2009-06-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 3.9,
+          "line": "end"
+        },
+        {
+          "addedSha": "4a0706f6fbcb2d448bc89541d450a93267f39bae",
+          "addedAt": "2009-06-26",
+          "addedBy": "visionmedia",
+          "deletedSha": "9128dc18d5a8356c67a8b136e426811664508630",
+          "deletedAt": "2009-06-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 3.9,
+          "line": "end"
+        },
+        {
+          "addedSha": "e4350c6a408d002bcd75f81a6921ca861222158b",
+          "addedAt": "2009-06-26",
+          "addedBy": "visionmedia",
+          "deletedSha": "9128dc18d5a8356c67a8b136e426811664508630",
+          "deletedAt": "2009-06-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 3.9,
+          "line": "end"
+        },
+        {
+          "addedSha": "7be9f442d2349e877139da52644d8b5c9a6c7a04",
+          "addedAt": "2009-06-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "e7f11d597fd667ccb1e4f00548845b5b3a9ce3a8",
+          "deletedAt": "2009-06-30",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "params = { 'user[name]' : 'tj', 'user[info][email]' : 'tj@vision-media.ca' }"
+        }
+      ]
+    },
+    {
+      "path": "lib/express/mime.js",
+      "added": 949,
+      "deleted": 949,
+      "churned": 383,
+      "churnRatePct": 40.4,
+      "selfChurn": 380,
+      "otherChurn": 3,
+      "samples": [
+        {
+          "addedSha": "87219f99006f262986ce90765c0917175a4df495",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "mimeTypes : {"
+        },
+        {
+          "addedSha": "87219f99006f262986ce90765c0917175a4df495",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "\"3gp\"     : \"video/3gpp\","
+        },
+        {
+          "addedSha": "87219f99006f262986ce90765c0917175a4df495",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "\"a\"       : \"application/octet-stream\","
+        },
+        {
+          "addedSha": "87219f99006f262986ce90765c0917175a4df495",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "\"ai\"      : \"application/postscript\","
+        },
+        {
+          "addedSha": "87219f99006f262986ce90765c0917175a4df495",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "\"aif\"     : \"audio/x-aiff\","
+        },
+        {
+          "addedSha": "87219f99006f262986ce90765c0917175a4df495",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "\"aiff\"    : \"audio/x-aiff\","
+        },
+        {
+          "addedSha": "87219f99006f262986ce90765c0917175a4df495",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "\"asc\"     : \"application/pgp-signature\","
+        },
+        {
+          "addedSha": "87219f99006f262986ce90765c0917175a4df495",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "\"asf\"     : \"video/x-ms-asf\","
+        },
+        {
+          "addedSha": "87219f99006f262986ce90765c0917175a4df495",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "\"asm\"     : \"text/x-asm\","
+        },
+        {
+          "addedSha": "87219f99006f262986ce90765c0917175a4df495",
+          "addedAt": "2009-11-30",
+          "addedBy": "visionmedia",
+          "deletedSha": "2603bb4c15fa13c81eeb6c9d1020cf6197b3db6c",
+          "deletedAt": "2009-12-02",
+          "deletedBy": "visionmedia",
+          "ageDays": 2.8,
+          "line": "\"asx\"     : \"video/x-ms-asf\","
+        }
+      ]
+    },
+    {
+      "path": "History.md",
+      "added": 4265,
+      "deleted": 1255,
+      "churned": 370,
+      "churnRatePct": 8.7,
+      "selfChurn": 349,
+      "otherChurn": 21,
+      "samples": [
+        {
+          "addedSha": "125533116008cd7e3a81b339a15f4a2059ae12ae",
+          "addedAt": "2010-04-14",
+          "addedBy": "visionmedia",
+          "deletedSha": "5729da5a9fbbc4447d109666001a192c6a55d6f0",
+          "deletedAt": "2010-04-15",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "* Added \"magic\" variables to collection partials (__index__, __length__, __isFirst__, __isLast__). Closes #254"
+        },
+        {
+          "addedSha": "125533116008cd7e3a81b339a15f4a2059ae12ae",
+          "addedAt": "2010-04-14",
+          "addedBy": "visionmedia",
+          "deletedSha": "5729da5a9fbbc4447d109666001a192c6a55d6f0",
+          "deletedAt": "2010-04-15",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "* Request instance created before body parsing. Closes #262"
+        },
+        {
+          "addedSha": "125533116008cd7e3a81b339a15f4a2059ae12ae",
+          "addedAt": "2010-04-14",
+          "addedBy": "visionmedia",
+          "deletedSha": "5729da5a9fbbc4447d109666001a192c6a55d6f0",
+          "deletedAt": "2010-04-15",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "* Fixed post param issue"
+        },
+        {
+          "addedSha": "125533116008cd7e3a81b339a15f4a2059ae12ae",
+          "addedAt": "2010-04-14",
+          "addedBy": "visionmedia",
+          "deletedSha": "5729da5a9fbbc4447d109666001a192c6a55d6f0",
+          "deletedAt": "2010-04-15",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "* Fixed mocks to work with new routing api"
+        },
+        {
+          "addedSha": "125533116008cd7e3a81b339a15f4a2059ae12ae",
+          "addedAt": "2010-04-14",
+          "addedBy": "visionmedia",
+          "deletedSha": "5729da5a9fbbc4447d109666001a192c6a55d6f0",
+          "deletedAt": "2010-04-15",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "* ."
+        },
+        {
+          "addedSha": "125533116008cd7e3a81b339a15f4a2059ae12ae",
+          "addedAt": "2010-04-14",
+          "addedBy": "visionmedia",
+          "deletedSha": "5729da5a9fbbc4447d109666001a192c6a55d6f0",
+          "deletedAt": "2010-04-15",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "* Docs"
+        },
+        {
+          "addedSha": "125533116008cd7e3a81b339a15f4a2059ae12ae",
+          "addedAt": "2010-04-14",
+          "addedBy": "visionmedia",
+          "deletedSha": "5729da5a9fbbc4447d109666001a192c6a55d6f0",
+          "deletedAt": "2010-04-15",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "* Merge branch 'upload-limit'"
+        },
+        {
+          "addedSha": "5729da5a9fbbc4447d109666001a192c6a55d6f0",
+          "addedAt": "2010-04-15",
+          "addedBy": "visionmedia",
+          "deletedSha": "5729da5a9fbbc4447d109666001a192c6a55d6f0",
+          "deletedAt": "2010-04-15",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "* Added \"max upload size\" setting"
+        },
+        {
+          "addedSha": "125533116008cd7e3a81b339a15f4a2059ae12ae",
+          "addedAt": "2010-04-14",
+          "addedBy": "visionmedia",
+          "deletedSha": "5729da5a9fbbc4447d109666001a192c6a55d6f0",
+          "deletedAt": "2010-04-15",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "* Updated ext. Closes #256"
+        },
+        {
+          "addedSha": "5729da5a9fbbc4447d109666001a192c6a55d6f0",
+          "addedAt": "2010-04-15",
+          "addedBy": "visionmedia",
+          "deletedSha": "5729da5a9fbbc4447d109666001a192c6a55d6f0",
+          "deletedAt": "2010-04-15",
+          "deletedBy": "visionmedia",
+          "ageDays": 0,
+          "line": "* Added Request#render() callback function. Closes #258"
+        }
+      ]
+    }
+  ]
+}

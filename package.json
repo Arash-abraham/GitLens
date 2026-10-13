@@ -7,7 +7,8 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "test": "vitest"
+    "test": "vitest",
+    "test:spike": "node --test \"scratch/churn-spike/test/*.test.mjs\""
   },
   "repository": {
     "type": "git",
