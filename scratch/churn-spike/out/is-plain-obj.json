@@ -1,0 +1,251 @@
+{
+  "repo": "is-plain-obj",
+  "url": "https://github.com/sindresorhus/is-plain-obj.git",
+  "windowDays": 21,
+  "summary": {
+    "commits": 30,
+    "botCommits": 0,
+    "filesTouched": 17,
+    "linesAdded": 485,
+    "linesDeleted": 235,
+    "blankLinesSkipped": 66,
+    "binaryFileDiffs": 0,
+    "renames": 0,
+    "churnedLines": 12,
+    "churnRatePct": 2.47,
+    "selfChurn": 5,
+    "otherChurn": 7,
+    "botAddedChurn": 0,
+    "cloneSec": 0.4,
+    "parseSec": 0,
+    "linesPerSec": 485
+  },
+  "topFiles": [
+    {
+      "path": "index.js",
+      "added": 27,
+      "deleted": 20,
+      "churned": 4,
+      "churnRatePct": 14.8,
+      "selfChurn": 1,
+      "otherChurn": 3,
+      "samples": [
+        {
+          "addedSha": "1ee301e3e2008c9ebe11ddf4be66346fb3619ca4",
+          "addedAt": "2019-04-20",
+          "addedBy": "Dimitri Benin",
+          "deletedSha": "97480673cf12145b32ec2ee924980d66572e8a86",
+          "deletedAt": "2019-04-20",
+          "deletedBy": "Sindre Sorhus",
+          "ageDays": 0,
+          "line": "module.exports = candidate => {"
+        },
+        {
+          "addedSha": "1ee301e3e2008c9ebe11ddf4be66346fb3619ca4",
+          "addedAt": "2019-04-20",
+          "addedBy": "Dimitri Benin",
+          "deletedSha": "97480673cf12145b32ec2ee924980d66572e8a86",
+          "deletedAt": "2019-04-20",
+          "deletedBy": "Sindre Sorhus",
+          "ageDays": 0,
+          "line": "if (Object.prototype.toString.call(candidate) !== '[object Object]') {"
+        },
+        {
+          "addedSha": "1ee301e3e2008c9ebe11ddf4be66346fb3619ca4",
+          "addedAt": "2019-04-20",
+          "addedBy": "Dimitri Benin",
+          "deletedSha": "97480673cf12145b32ec2ee924980d66572e8a86",
+          "deletedAt": "2019-04-20",
+          "deletedBy": "Sindre Sorhus",
+          "ageDays": 0,
+          "line": "const prototype = Object.getPrototypeOf(candidate);"
+        },
+        {
+          "addedSha": "b51c26ace163a0761fbe0603cdc270192ef23ce9",
+          "addedAt": "2022-06-14",
+          "addedBy": "ehmicky",
+          "deletedSha": "e334e11a580ba92662671e9386ea3b681f7750d2",
+          "deletedAt": "2022-06-15",
+          "deletedBy": "ehmicky",
+          "ageDays": 1.1,
+          "line": "return prototype === null || Object.getPrototypeOf(prototype) === null;"
+        }
+      ]
+    },
+    {
+      "path": "index.d.ts",
+      "added": 35,
+      "deleted": 9,
+      "churned": 3,
+      "churnRatePct": 8.6,
+      "selfChurn": 1,
+      "otherChurn": 2,
+      "samples": [
+        {
+          "addedSha": "1ee301e3e2008c9ebe11ddf4be66346fb3619ca4",
+          "addedAt": "2019-04-20",
+          "addedBy": "Dimitri Benin",
+          "deletedSha": "97480673cf12145b32ec2ee924980d66572e8a86",
+          "deletedAt": "2019-04-20",
+          "deletedBy": "Sindre Sorhus",
+          "ageDays": 0,
+          "line": "declare function isPlainObj(candidate: unknown): candidate is object;"
+        },
+        {
+          "addedSha": "e20ccc10aa69bdec4fb95bcfebebae6d2d30646a",
+          "addedAt": "2020-10-12",
+          "addedBy": "Rocktim Saikia",
+          "deletedSha": "1e1804172780af0f51829d2388d8c6ab6d716565",
+          "deletedAt": "2020-10-12",
+          "deletedBy": "Sindre Sorhus",
+          "ageDays": 0,
+          "line": "declare function isPlainObj<Value = unknown>(value: unknown): value is Record<string | number | symbol, Value>;"
+        },
+        {
+          "addedSha": "b51c26ace163a0761fbe0603cdc270192ef23ce9",
+          "addedAt": "2022-06-14",
+          "addedBy": "ehmicky",
+          "deletedSha": "c49ab092dcfd9bb5af5409cc3d6a1e5cbe443afe",
+          "deletedAt": "2022-06-14",
+          "deletedBy": "ehmicky",
+          "ageDays": 0.3,
+          "line": "import {runInNewContext} from 'vm';"
+        }
+      ]
+    },
+    {
+      "path": "index.test-d.ts",
+      "added": 14,
+      "deleted": 5,
+      "churned": 2,
+      "churnRatePct": 14.3,
+      "selfChurn": 0,
+      "otherChurn": 2,
+      "samples": [
+        {
+          "addedSha": "1ee301e3e2008c9ebe11ddf4be66346fb3619ca4",
+          "addedAt": "2019-04-20",
+          "addedBy": "Dimitri Benin",
+          "deletedSha": "97480673cf12145b32ec2ee924980d66572e8a86",
+          "deletedAt": "2019-04-20",
+          "deletedBy": "Sindre Sorhus",
+          "ageDays": 0,
+          "line": "import isPlainObj = require('.');"
+        },
+        {
+          "addedSha": "1ee301e3e2008c9ebe11ddf4be66346fb3619ca4",
+          "addedAt": "2019-04-20",
+          "addedBy": "Dimitri Benin",
+          "deletedSha": "97480673cf12145b32ec2ee924980d66572e8a86",
+          "deletedAt": "2019-04-20",
+          "deletedBy": "Sindre Sorhus",
+          "ageDays": 0,
+          "line": "if (isPlainObj(foo)) {"
+        }
+      ]
+    },
+    {
+      "path": "package.json",
+      "added": 105,
+      "deleted": 62,
+      "churned": 1,
+      "churnRatePct": 1,
+      "selfChurn": 1,
+      "otherChurn": 0,
+      "samples": [
+        {
+          "addedSha": "b371552af56eb879d9da9af96888bd028ef8483f",
+          "addedAt": "2015-07-11",
+          "addedBy": "Sindre Sorhus",
+          "deletedSha": "ca2adca4deadaa0a632d8abc40e1e4654ccd4c1b",
+          "deletedAt": "2015-07-11",
+          "deletedBy": "Sindre Sorhus",
+          "ageDays": 0,
+          "line": "\"version\": \"0.0.0\","
+        }
+      ]
+    },
+    {
+      "path": "test.js",
+      "added": 97,
+      "deleted": 57,
+      "churned": 1,
+      "churnRatePct": 1,
+      "selfChurn": 1,
+      "otherChurn": 0,
+      "samples": [
+        {
+          "addedSha": "b51c26ace163a0761fbe0603cdc270192ef23ce9",
+          "addedAt": "2022-06-14",
+          "addedBy": "ehmicky",
+          "deletedSha": "c49ab092dcfd9bb5af5409cc3d6a1e5cbe443afe",
+          "deletedAt": "2022-06-14",
+          "deletedBy": "ehmicky",
+          "ageDays": 0.3,
+          "line": "import {runInNewContext} from 'vm';"
+        }
+      ]
+    },
+    {
+      "path": "readme.md",
+      "added": 55,
+      "deleted": 24,
+      "churned": 1,
+      "churnRatePct": 1.8,
+      "selfChurn": 1,
+      "otherChurn": 0,
+      "samples": [
+        {
+          "addedSha": "b51c26ace163a0761fbe0603cdc270192ef23ce9",
+          "addedAt": "2022-06-14",
+          "addedBy": "ehmicky",
+          "deletedSha": "c49ab092dcfd9bb5af5409cc3d6a1e5cbe443afe",
+          "deletedAt": "2022-06-14",
+          "deletedBy": "ehmicky",
+          "ageDays": 0.3,
+          "line": "import {runInNewContext} from 'vm';"
+        }
+      ]
+    },
+    {
+      "path": "benchmark.js",
+      "added": 54,
+      "deleted": 3,
+      "churned": 0,
+      "churnRatePct": 0,
+      "selfChurn": 0,
+      "otherChurn": 0,
+      "samples": []
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "added": 27,
+      "deleted": 6,
+      "churned": 0,
+      "churnRatePct": 0,
+      "selfChurn": 0,
+      "otherChurn": 0,
+      "samples": []
+    },
+    {
+      "path": "license",
+      "added": 22,
+      "deleted": 17,
+      "churned": 0,
+      "churnRatePct": 0,
+      "selfChurn": 0,
+      "otherChurn": 0,
+      "samples": []
+    },
+    {
+      "path": ".editorconfig",
+      "added": 13,
+      "deleted": 3,
+      "churned": 0,
+      "churnRatePct": 0,
+      "selfChurn": 0,
+      "otherChurn": 0,
+      "samples": []
+    }
+  ]
+}

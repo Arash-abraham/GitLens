@@ -1,0 +1,2249 @@
+{
+  "repo": "axios",
+  "url": "https://github.com/axios/axios.git",
+  "windowDays": 21,
+  "summary": {
+    "commits": 2018,
+    "botCommits": 233,
+    "filesTouched": 771,
+    "linesAdded": 312908,
+    "linesDeleted": 227003,
+    "blankLinesSkipped": 45125,
+    "binaryFileDiffs": 11,
+    "renames": 49,
+    "churnedLines": 90947,
+    "churnRatePct": 29.07,
+    "selfChurn": 83928,
+    "otherChurn": 7019,
+    "botAddedChurn": 5310,
+    "cloneSec": 0,
+    "parseSec": 4,
+    "linesPerSec": 78227,
+    "generatedChurn": 79374,
+    "generatedChurnSharePct": 87.3
+  },
+  "topFilesRaw": [
+    {
+      "path": "package-lock.json",
+      "added": 107160,
+      "deleted": 97431,
+      "churned": 32319,
+      "churnRatePct": 30.2,
+      "selfChurn": 28684,
+      "otherChurn": 3635,
+      "samples": [
+        {
+          "addedSha": "447a24dfc337f93d35b9a8bed7629a76f7aed6bf",
+          "addedAt": "2022-02-13",
+          "addedBy": "dependabot[bot]",
+          "deletedSha": "447a24dfc337f93d35b9a8bed7629a76f7aed6bf",
+          "deletedAt": "2022-02-13",
+          "deletedBy": "dependabot[bot]",
+          "ageDays": 0,
+          "line": "\"node_modules/streamroller/node_modules/fs-extra\": {"
+        },
+        {
+          "addedSha": "447a24dfc337f93d35b9a8bed7629a76f7aed6bf",
+          "addedAt": "2022-02-13",
+          "addedBy": "dependabot[bot]",
+          "deletedSha": "447a24dfc337f93d35b9a8bed7629a76f7aed6bf",
+          "deletedAt": "2022-02-13",
+          "deletedBy": "dependabot[bot]",
+          "ageDays": 0,
+          "line": "\"graceful-fs\": \"^4.2.0\","
+        },
+        {
+          "addedSha": "447a24dfc337f93d35b9a8bed7629a76f7aed6bf",
+          "addedAt": "2022-02-13",
+          "addedBy": "dependabot[bot]",
+          "deletedSha": "447a24dfc337f93d35b9a8bed7629a76f7aed6bf",
+          "deletedAt": "2022-02-13",
+          "deletedBy": "dependabot[bot]",
+          "ageDays": 0,
+          "line": "},"
+        },
+        {
+          "addedSha": "447a24dfc337f93d35b9a8bed7629a76f7aed6bf",
+          "addedAt": "2022-02-13",
+          "addedBy": "dependabot[bot]",
+          "deletedSha": "447a24dfc337f93d35b9a8bed7629a76f7aed6bf",
+          "deletedAt": "2022-02-13",
+          "deletedBy": "dependabot[bot]",
+          "ageDays": 0,
+          "line": "\"dependencies\": {"
+        },
+        {
+          "addedSha": "447a24dfc337f93d35b9a8bed7629a76f7aed6bf",
+          "addedAt": "2022-02-13",
+          "addedBy": "dependabot[bot]",
+          "deletedSha": "447a24dfc337f93d35b9a8bed7629a76f7aed6bf",
+          "deletedAt": "2022-02-13",
+          "deletedBy": "dependabot[bot]",
+          "ageDays": 0,
+          "line": "}"
+        },
+        {
+          "addedSha": "447a24dfc337f93d35b9a8bed7629a76f7aed6bf",
+          "addedAt": "2022-02-13",
+          "addedBy": "dependabot[bot]",
+          "deletedSha": "447a24dfc337f93d35b9a8bed7629a76f7aed6bf",
+          "deletedAt": "2022-02-13",
+          "deletedBy": "dependabot[bot]",
+          "ageDays": 0,
+          "line": "},"
+        },
+        {
+          "addedSha": "c5bdbd436d7ac90d7bac26247cb60752d171e47c",
+          "addedAt": "2022-02-11",
+          "addedBy": "CookieMr",
+          "deletedSha": "95295f6f291fc7e647e8d3c2960b5d26a2df707d",
+          "deletedAt": "2022-02-13",
+          "deletedBy": "Jay",
+          "ageDays": 2,
+          "line": "\"version\": \"0.25.1\","
+        },
+        {
+          "addedSha": "c5bdbd436d7ac90d7bac26247cb60752d171e47c",
+          "addedAt": "2022-02-11",
+          "addedBy": "CookieMr",
+          "deletedSha": "95295f6f291fc7e647e8d3c2960b5d26a2df707d",
+          "deletedAt": "2022-02-13",
+          "deletedBy": "Jay",
+          "ageDays": 2,
+          "line": "\"version\": \"0.25.1\","
+        },
+        {
+          "addedSha": "95295f6f291fc7e647e8d3c2960b5d26a2df707d",
+          "addedAt": "2022-02-13",
+          "addedBy": "Jay",
+          "deletedSha": "c9aca7525703ab600eacd9e95fd7f6ecc9942616",
+          "deletedAt": "2022-02-13",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "\"version\": \"0.25.0\","
+        },
+        {
+          "addedSha": "95295f6f291fc7e647e8d3c2960b5d26a2df707d",
+          "addedAt": "2022-02-13",
+          "addedBy": "Jay",
+          "deletedSha": "c9aca7525703ab600eacd9e95fd7f6ecc9942616",
+          "deletedAt": "2022-02-13",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "\"version\": \"0.25.0\","
+        }
+      ]
+    },
+    {
+      "path": "tests/smoke/cjs/package-lock.json",
+      "added": 19345,
+      "deleted": 18119,
+      "churned": 17912,
+      "churnRatePct": 92.6,
+      "selfChurn": 17910,
+      "otherChurn": 2,
+      "samples": [
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"axios\": \"file:../../../dist/node/axios.cjs\""
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"../..\": {"
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"extraneous\": true,"
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"follow-redirects\": \"^1.15.11\","
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"form-data\": \"^4.0.5\","
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"proxy-from-env\": \"^1.1.0\""
+        },
+        {
+          "addedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "addedAt": "2026-03-14",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "\"devDependencies\": {"
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"@babel/core\": \"^7.28.6\","
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"@babel/preset-env\": \"^7.28.6\","
+        },
+        {
+          "addedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "addedAt": "2026-03-14",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "\"@commitlint/cli\": \"^20.3.1\","
+        }
+      ]
+    },
+    {
+      "path": "dist/axios.js",
+      "added": 29897,
+      "deleted": 29394,
+      "churned": 13914,
+      "churnRatePct": 46.5,
+      "selfChurn": 13618,
+      "otherChurn": 296,
+      "samples": [
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "28073866a5c10e039c233d9ae22fe8bb95442bb7",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 7.7,
+          "line": "reject(new Error('Can\\'t connect to ' + JSON.stringify(options.url)));"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "28073866a5c10e039c233d9ae22fe8bb95442bb7",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 7.7,
+          "line": "request.send(options.data || null);"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "28073866a5c10e039c233d9ae22fe8bb95442bb7",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 7.7,
+          "line": "//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vd2VicGFjay9ib290c3RyYX"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "cd221704cf4b0aa7a3dd01006b350d4d2a239e6b",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 7.7,
+          "line": "method: 'get'"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "cd221704cf4b0aa7a3dd01006b350d4d2a239e6b",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 7.7,
+          "line": "resolve(parse(request.responseText));"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "cd221704cf4b0aa7a3dd01006b350d4d2a239e6b",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 7.7,
+          "line": "request.setRequestHeader(key, headers[key]);"
+        },
+        {
+          "addedSha": "28073866a5c10e039c233d9ae22fe8bb95442bb7",
+          "addedAt": "2014-08-26",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "cd221704cf4b0aa7a3dd01006b350d4d2a239e6b",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 0.1,
+          "line": "request.send(options.data ? JSON.stringify(options.data) : null);"
+        },
+        {
+          "addedSha": "28073866a5c10e039c233d9ae22fe8bb95442bb7",
+          "addedAt": "2014-08-26",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "cd221704cf4b0aa7a3dd01006b350d4d2a239e6b",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 0.1,
+          "line": "//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vd2VicGFjay9ib290c3RyYX"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "var Promise = __webpack_require__(2).Promise;"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "function axios(options) {"
+        }
+      ]
+    },
+    {
+      "path": "dist/axios.amd.js",
+      "added": 9407,
+      "deleted": 9407,
+      "churned": 7133,
+      "churnRatePct": 75.8,
+      "selfChurn": 6857,
+      "otherChurn": 276,
+      "samples": [
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "var Promise = __webpack_require__(2).Promise;"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "function axios(options) {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "method: 'get'"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "var request = new(XMLHttpRequest || ActiveXObject)('MSXML2.XMLHTTP.3.0');"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "function onload() {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "if (request.status >= 200 && request.status < 300) {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "resolve(parse(request.responseText));"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "} else {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "onerror();"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "}"
+        }
+      ]
+    },
+    {
+      "path": "dist/axios.min.js",
+      "added": 1560,
+      "deleted": 1553,
+      "churned": 1447,
+      "churnRatePct": 92.8,
+      "selfChurn": 1435,
+      "otherChurn": 12,
+      "samples": [
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "var Promise = __webpack_require__(2).Promise;"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "function axios(options) {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "method: 'get'"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "var request = new(XMLHttpRequest || ActiveXObject)('MSXML2.XMLHTTP.3.0');"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "function onload() {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "if (request.status >= 200 && request.status < 300) {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "resolve(parse(request.responseText));"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "} else {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "onerror();"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "}"
+        }
+      ]
+    },
+    {
+      "path": "dist/axios.amd.min.js",
+      "added": 1369,
+      "deleted": 1369,
+      "churned": 1349,
+      "churnRatePct": 98.5,
+      "selfChurn": 1347,
+      "otherChurn": 2,
+      "samples": [
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "var Promise = __webpack_require__(2).Promise;"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "function axios(options) {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "method: 'get'"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "var request = new(XMLHttpRequest || ActiveXObject)('MSXML2.XMLHTTP.3.0');"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "function onload() {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "if (request.status >= 200 && request.status < 300) {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "resolve(parse(request.responseText));"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "} else {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "onerror();"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "}"
+        }
+      ]
+    },
+    {
+      "path": "axios.js",
+      "added": 1090,
+      "deleted": 1090,
+      "churned": 1090,
+      "churnRatePct": 100,
+      "selfChurn": 1090,
+      "otherChurn": 0,
+      "samples": [
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "!function(e){if(\"object\"==typeof exports)module.exports=e();else if(\"function\"==typeof define&&define.amd)define(e);else"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "module.exports = _dereq_('./lib/axios');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "},{\"./lib/axios\":3}],2:[function(_dereq_,module,exports){"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var buildUrl = _dereq_('./../buildUrl');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var cookies = _dereq_('./../cookies');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var defaults = _dereq_('./../defaults');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var parseHeaders = _dereq_('./../parseHeaders');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var transformData = _dereq_('./../transformData');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var urlIsSameOrigin = _dereq_('./../urlIsSameOrigin');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var utils = _dereq_('./../utils');"
+        }
+      ]
+    },
+    {
+      "path": "tests/smoke/esm/package-lock.json",
+      "added": 2950,
+      "deleted": 1732,
+      "churned": 1066,
+      "churnRatePct": 36.1,
+      "selfChurn": 981,
+      "otherChurn": 85,
+      "samples": [
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"vitest\": \"^4.0.18\""
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"proxy-from-env\": \"^1.1.0\""
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"@babel/core\": \"^7.28.6\","
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"@babel/preset-env\": \"^7.28.6\","
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"@rollup/plugin-babel\": \"^6.1.0\","
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"istanbul-instrumenter-loader\": \"^3.0.1\","
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"version\": \"0.27.3\","
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"resolved\": \"https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.27.3.tgz\","
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"integrity\": \"sha512-9fJMTNFTWZMh5qwrBItuziu834eOCUcEqymSH7pY+zoMVEZg3gcPuBNxH1EvfVYe9h0x/Ptw8KBzv7qxb7l8dg==\","
+        },
+        {
+          "addedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "addedAt": "2026-03-12",
+          "addedBy": "Jay",
+          "deletedSha": "e943f6c54581deb983f065b05b9af757ebb0ca5d",
+          "deletedAt": "2026-03-14",
+          "deletedBy": "Jay",
+          "ageDays": 2.2,
+          "line": "\"version\": \"0.27.3\","
+        }
+      ]
+    },
+    {
+      "path": "test/unit/adapters/http.js",
+      "added": 4927,
+      "deleted": 4899,
+      "churned": 797,
+      "churnRatePct": 16.2,
+      "selfChurn": 758,
+      "otherChurn": 39,
+      "samples": [
+        {
+          "addedSha": "116f5fca886b5fd9733c1d1548c5f76e220efb21",
+          "addedAt": "2016-02-29",
+          "addedBy": "Andrew Crites",
+          "deletedSha": "e2fbc68960ece3301d8f31fb0b45c1831f9a121f",
+          "deletedAt": "2016-03-04",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 4.1,
+          "line": "console.log(req.headers);"
+        },
+        {
+          "addedSha": "93ae90ae6e1d99cdbae383875bc54977ba6c2769",
+          "addedAt": "2016-08-24",
+          "addedBy": "Hubert Boma Manilla",
+          "deletedSha": "65ffdaefe81c632cf79bf17add0bd64cdd87a653",
+          "deletedAt": "2016-08-24",
+          "deletedBy": "Nick Uraltsev",
+          "ageDays": 0.3,
+          "line": "process.env.http_proxy = null;"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "});"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "});"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "});"
+        },
+        {
+          "addedSha": "787c808c0401b766d2769097cef864dd1cfb536b",
+          "addedAt": "2018-07-05",
+          "addedBy": "Mark van den Broek",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 1,
+          "line": "var buf = Buffer.from(1024); // Unsafe buffer < Buffer.poolSize (8192 bytes)"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "responseType: 'stream'"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "}).then(function (res) {"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "var stream = res.data;"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "var string = '';"
+        }
+      ]
+    },
+    {
+      "path": "dist/esm/axios.js",
+      "added": 5544,
+      "deleted": 5544,
+      "churned": 778,
+      "churnRatePct": 14,
+      "selfChurn": 776,
+      "otherChurn": 2,
+      "samples": [
+        {
+          "addedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "addedAt": "2022-10-04",
+          "addedBy": "Jay",
+          "deletedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "deletedAt": "2022-10-04",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "}"
+        },
+        {
+          "addedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "addedAt": "2022-10-04",
+          "addedBy": "Jay",
+          "deletedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "deletedAt": "2022-10-04",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "*/"
+        },
+        {
+          "addedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "addedAt": "2022-10-04",
+          "addedBy": "Jay",
+          "deletedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "deletedAt": "2022-10-04",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "/**"
+        },
+        {
+          "addedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "addedAt": "2022-10-04",
+          "addedBy": "Jay",
+          "deletedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "deletedAt": "2022-10-04",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "* Determine if a value is a Function"
+        },
+        {
+          "addedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "addedAt": "2022-10-04",
+          "addedBy": "Jay",
+          "deletedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "deletedAt": "2022-10-04",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "* @returns {boolean} True if value is a Function, otherwise false"
+        },
+        {
+          "addedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "addedAt": "2022-10-04",
+          "addedBy": "Jay",
+          "deletedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "deletedAt": "2022-10-04",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "*/"
+        },
+        {
+          "addedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "addedAt": "2022-10-04",
+          "addedBy": "Jay",
+          "deletedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "deletedAt": "2022-10-04",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "/**"
+        },
+        {
+          "addedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "addedAt": "2022-10-04",
+          "addedBy": "Jay",
+          "deletedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "deletedAt": "2022-10-04",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "*"
+        },
+        {
+          "addedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "addedAt": "2022-10-04",
+          "addedBy": "Jay",
+          "deletedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "deletedAt": "2022-10-04",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "*"
+        },
+        {
+          "addedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "addedAt": "2022-10-04",
+          "addedBy": "Jay",
+          "deletedSha": "ff34f6dd51f7fe5bc94edd5547318d8a783648c9",
+          "deletedAt": "2022-10-04",
+          "deletedBy": "Jay",
+          "ageDays": 0,
+          "line": "};"
+        }
+      ]
+    }
+  ],
+  "topFilesSource": [
+    {
+      "path": "axios.js",
+      "added": 1090,
+      "deleted": 1090,
+      "churned": 1090,
+      "churnRatePct": 100,
+      "selfChurn": 1090,
+      "otherChurn": 0,
+      "samples": [
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "!function(e){if(\"object\"==typeof exports)module.exports=e();else if(\"function\"==typeof define&&define.amd)define(e);else"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "module.exports = _dereq_('./lib/axios');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "},{\"./lib/axios\":3}],2:[function(_dereq_,module,exports){"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var buildUrl = _dereq_('./../buildUrl');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var cookies = _dereq_('./../cookies');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var defaults = _dereq_('./../defaults');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var parseHeaders = _dereq_('./../parseHeaders');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var transformData = _dereq_('./../transformData');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var urlIsSameOrigin = _dereq_('./../urlIsSameOrigin');"
+        },
+        {
+          "addedSha": "c26505322535a6ceec3cea469df78c2bc3cf6f43",
+          "addedAt": "2014-09-14",
+          "addedBy": "Nick Bottomley",
+          "deletedSha": "d0bdde4ce3660c00e2444ff5f96be190275b3a44",
+          "deletedAt": "2014-09-14",
+          "deletedBy": "Nick Bottomley",
+          "ageDays": 0,
+          "line": "var utils = _dereq_('./../utils');"
+        }
+      ]
+    },
+    {
+      "path": "test/unit/adapters/http.js",
+      "added": 4927,
+      "deleted": 4899,
+      "churned": 797,
+      "churnRatePct": 16.2,
+      "selfChurn": 758,
+      "otherChurn": 39,
+      "samples": [
+        {
+          "addedSha": "116f5fca886b5fd9733c1d1548c5f76e220efb21",
+          "addedAt": "2016-02-29",
+          "addedBy": "Andrew Crites",
+          "deletedSha": "e2fbc68960ece3301d8f31fb0b45c1831f9a121f",
+          "deletedAt": "2016-03-04",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 4.1,
+          "line": "console.log(req.headers);"
+        },
+        {
+          "addedSha": "93ae90ae6e1d99cdbae383875bc54977ba6c2769",
+          "addedAt": "2016-08-24",
+          "addedBy": "Hubert Boma Manilla",
+          "deletedSha": "65ffdaefe81c632cf79bf17add0bd64cdd87a653",
+          "deletedAt": "2016-08-24",
+          "deletedBy": "Nick Uraltsev",
+          "ageDays": 0.3,
+          "line": "process.env.http_proxy = null;"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "});"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "});"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "});"
+        },
+        {
+          "addedSha": "787c808c0401b766d2769097cef864dd1cfb536b",
+          "addedAt": "2018-07-05",
+          "addedBy": "Mark van den Broek",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 1,
+          "line": "var buf = Buffer.from(1024); // Unsafe buffer < Buffer.poolSize (8192 bytes)"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "responseType: 'stream'"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "}).then(function (res) {"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "var stream = res.data;"
+        },
+        {
+          "addedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "addedAt": "2018-07-06",
+          "addedBy": "Justin Beckwith",
+          "deletedSha": "98080381fa78dcffa91a15e6d25617583d13e533",
+          "deletedAt": "2018-07-06",
+          "deletedBy": "Justin Beckwith",
+          "ageDays": 0,
+          "line": "var string = '';"
+        }
+      ]
+    },
+    {
+      "path": "README.md",
+      "added": 4088,
+      "deleted": 1820,
+      "churned": 654,
+      "churnRatePct": 16,
+      "selfChurn": 295,
+      "otherChurn": 359,
+      "samples": [
+        {
+          "addedSha": "91871496a21a0286599c540b82dc0010cd814394",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "85e9330c8cffb17fb78db7ff5363e67f30eaa847",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 7.8,
+          "line": "# axios"
+        },
+        {
+          "addedSha": "f21293d3ddb2093b362c950eb2a91271da0e949c",
+          "addedAt": "2014-08-27",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "fe32d44336aabef2f5a6ccd3ded37a6638cdd777",
+          "deletedAt": "2014-08-28",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 1,
+          "line": "responseType: 'json' // default"
+        },
+        {
+          "addedSha": "f21293d3ddb2093b362c950eb2a91271da0e949c",
+          "addedAt": "2014-08-27",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "960a583d568f75913c18a15219a75cab5f0b6b13",
+          "deletedAt": "2014-08-28",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 1.1,
+          "line": ".success(function (response) {"
+        },
+        {
+          "addedSha": "ceca9ced4734b8412e8b65d806231f4290945d9b",
+          "addedAt": "2014-08-28",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "960a583d568f75913c18a15219a75cab5f0b6b13",
+          "deletedAt": "2014-08-28",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 0,
+          "line": "console.log(response);"
+        },
+        {
+          "addedSha": "ceca9ced4734b8412e8b65d806231f4290945d9b",
+          "addedAt": "2014-08-28",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "960a583d568f75913c18a15219a75cab5f0b6b13",
+          "deletedAt": "2014-08-28",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 0,
+          "line": "})"
+        },
+        {
+          "addedSha": "ceca9ced4734b8412e8b65d806231f4290945d9b",
+          "addedAt": "2014-08-28",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "960a583d568f75913c18a15219a75cab5f0b6b13",
+          "deletedAt": "2014-08-28",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 0,
+          "line": ".error(function (response) {"
+        },
+        {
+          "addedSha": "ceca9ced4734b8412e8b65d806231f4290945d9b",
+          "addedAt": "2014-08-28",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "960a583d568f75913c18a15219a75cab5f0b6b13",
+          "deletedAt": "2014-08-28",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 0,
+          "line": "console.log(response);"
+        },
+        {
+          "addedSha": "f21293d3ddb2093b362c950eb2a91271da0e949c",
+          "addedAt": "2014-08-27",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "960a583d568f75913c18a15219a75cab5f0b6b13",
+          "deletedAt": "2014-08-28",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 1.1,
+          "line": "});"
+        },
+        {
+          "addedSha": "f21293d3ddb2093b362c950eb2a91271da0e949c",
+          "addedAt": "2014-08-27",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "5e6e269b54c3b0f1579db9606f3a50f0efb899a1",
+          "deletedAt": "2014-08-29",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 1.6,
+          "line": "Requests can be made by passing the relevant options to `axios`."
+        },
+        {
+          "addedSha": "f21293d3ddb2093b362c950eb2a91271da0e949c",
+          "addedAt": "2014-08-27",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "5e6e269b54c3b0f1579db9606f3a50f0efb899a1",
+          "deletedAt": "2014-08-29",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 1.6,
+          "line": "##### axios(options)"
+        }
+      ]
+    },
+    {
+      "path": "lib/adapters/http.js",
+      "added": 3163,
+      "deleted": 1728,
+      "churned": 569,
+      "churnRatePct": 18,
+      "selfChurn": 491,
+      "otherChurn": 78,
+      "samples": [
+        {
+          "addedSha": "f4a334e17c3031970a5cb614551d057948f7d09f",
+          "addedAt": "2014-09-12",
+          "addedBy": "mzabriskie",
+          "deletedSha": "1fa35ced3c086622807de0c808a797cfbff092cd",
+          "deletedAt": "2014-09-16",
+          "deletedBy": "mzabriskie",
+          "ageDays": 4,
+          "line": ": reject)("
+        },
+        {
+          "addedSha": "f4a334e17c3031970a5cb614551d057948f7d09f",
+          "addedAt": "2014-09-12",
+          "addedBy": "mzabriskie",
+          "deletedSha": "1fa35ced3c086622807de0c808a797cfbff092cd",
+          "deletedAt": "2014-09-16",
+          "deletedBy": "mzabriskie",
+          "ageDays": 4,
+          "line": "response.data,"
+        },
+        {
+          "addedSha": "f4a334e17c3031970a5cb614551d057948f7d09f",
+          "addedAt": "2014-09-12",
+          "addedBy": "mzabriskie",
+          "deletedSha": "1fa35ced3c086622807de0c808a797cfbff092cd",
+          "deletedAt": "2014-09-16",
+          "deletedBy": "mzabriskie",
+          "ageDays": 4,
+          "line": "response.status,"
+        },
+        {
+          "addedSha": "f4a334e17c3031970a5cb614551d057948f7d09f",
+          "addedAt": "2014-09-12",
+          "addedBy": "mzabriskie",
+          "deletedSha": "1fa35ced3c086622807de0c808a797cfbff092cd",
+          "deletedAt": "2014-09-16",
+          "deletedBy": "mzabriskie",
+          "ageDays": 4,
+          "line": "response.headers,"
+        },
+        {
+          "addedSha": "f4a334e17c3031970a5cb614551d057948f7d09f",
+          "addedAt": "2014-09-12",
+          "addedBy": "mzabriskie",
+          "deletedSha": "1fa35ced3c086622807de0c808a797cfbff092cd",
+          "deletedAt": "2014-09-16",
+          "deletedBy": "mzabriskie",
+          "ageDays": 4,
+          "line": "response.config"
+        },
+        {
+          "addedSha": "f4a334e17c3031970a5cb614551d057948f7d09f",
+          "addedAt": "2014-09-12",
+          "addedBy": "mzabriskie",
+          "deletedSha": "1fa35ced3c086622807de0c808a797cfbff092cd",
+          "deletedAt": "2014-09-16",
+          "deletedBy": "mzabriskie",
+          "ageDays": 4,
+          "line": ");"
+        },
+        {
+          "addedSha": "095a204c5bd887622e196ab646136442495d4e4d",
+          "addedAt": "2014-09-18",
+          "addedBy": "Mathieu Bruyen",
+          "deletedSha": "9d5a8781e3bb8828385485f2a4450277f274e7d9",
+          "deletedAt": "2014-09-21",
+          "deletedBy": "Mathieu Bruyen",
+          "ageDays": 3.4,
+          "line": "if (utils.isArrayBuffer(data)) {"
+        },
+        {
+          "addedSha": "095a204c5bd887622e196ab646136442495d4e4d",
+          "addedAt": "2014-09-18",
+          "addedBy": "Mathieu Bruyen",
+          "deletedSha": "9d5a8781e3bb8828385485f2a4450277f274e7d9",
+          "deletedAt": "2014-09-21",
+          "deletedBy": "Mathieu Bruyen",
+          "ageDays": 3.4,
+          "line": "data = new Buffer(new Uint8Array(data));"
+        },
+        {
+          "addedSha": "095a204c5bd887622e196ab646136442495d4e4d",
+          "addedAt": "2014-09-18",
+          "addedBy": "Mathieu Bruyen",
+          "deletedSha": "9d5a8781e3bb8828385485f2a4450277f274e7d9",
+          "deletedAt": "2014-09-21",
+          "deletedBy": "Mathieu Bruyen",
+          "ageDays": 3.4,
+          "line": "}"
+        },
+        {
+          "addedSha": "e1aa04cceeeb72e52b41c891d1fd0325db96a0f7",
+          "addedAt": "2014-09-17",
+          "addedBy": "mzabriskie",
+          "deletedSha": "9d5a8781e3bb8828385485f2a4450277f274e7d9",
+          "deletedAt": "2014-09-21",
+          "deletedBy": "Mathieu Bruyen",
+          "ageDays": 4.6,
+          "line": "// Add Content-Length header if data exists"
+        }
+      ]
+    },
+    {
+      "path": "tests/unit/adapters/http.test.js",
+      "added": 6921,
+      "deleted": 560,
+      "churned": 400,
+      "churnRatePct": 5.8,
+      "selfChurn": 324,
+      "otherChurn": 76,
+      "samples": [
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "{ port: 8080 }"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "{ port: 8080 }"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "{ port: 8080 }"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "{ port: 8080 }"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "{ port: 8080 }"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "{ port: 8080 }"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "{ port: 8080 }"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "{ port: 8080 }"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "{ port: 8080 }"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "{ port: 8080 }"
+        }
+      ]
+    },
+    {
+      "path": "tests/unit/adapters/fetch.test.js",
+      "added": 2257,
+      "deleted": 320,
+      "churned": 302,
+      "churnRatePct": 13.4,
+      "selfChurn": 269,
+      "otherChurn": 33,
+      "samples": [
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "import { afterEach, describe, it, vi } from 'vitest';"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "LOCAL_SERVER_URL,"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "let server;"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "afterEach(async () => {"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "await stopHTTPServer(server);"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "server = null;"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "});"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "server = await startHTTPServer((req, res) => res.end(originalData));"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "const { data } = await fetchAxios.get('/', {"
+        },
+        {
+          "addedSha": "fa337332b9cb675b2840e94f105a5b0440899642",
+          "addedAt": "2026-03-06",
+          "addedBy": "Jay",
+          "deletedSha": "d905b7598dd6f8994af0a32a5e0b5b814b11ad1b",
+          "deletedAt": "2026-03-12",
+          "deletedBy": "Jay",
+          "ageDays": 5.8,
+          "line": "responseType: 'text',"
+        }
+      ]
+    },
+    {
+      "path": "package.json",
+      "added": 1177,
+      "deleted": 979,
+      "churned": 302,
+      "churnRatePct": 25.7,
+      "selfChurn": 218,
+      "otherChurn": 84,
+      "samples": [
+        {
+          "addedSha": "729404dff5454d74785e0c632bb6b4a855fa59ff",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "0d0b8370205f62c65ee2e51262dab6bc48569548",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "\"test\": \"grunt test\""
+        },
+        {
+          "addedSha": "729404dff5454d74785e0c632bb6b4a855fa59ff",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "0d0b8370205f62c65ee2e51262dab6bc48569548",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "\"grunt-update-json\": \"^0.1.3\""
+        },
+        {
+          "addedSha": "0d0b8370205f62c65ee2e51262dab6bc48569548",
+          "addedAt": "2014-08-27",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "2fb81d805f252b509dba76bb0f28c26c020c43ec",
+          "deletedAt": "2014-08-28",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 1.6,
+          "line": "\"grunt-contrib-nodeunit\": \"^0.4.1\""
+        },
+        {
+          "addedSha": "729404dff5454d74785e0c632bb6b4a855fa59ff",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "00724fdd0bb5bfa66f466cbf459e590a5d7c0c9d",
+          "deletedAt": "2014-08-29",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 11,
+          "line": "\"version\": \"0.0.0\","
+        },
+        {
+          "addedSha": "729404dff5454d74785e0c632bb6b4a855fa59ff",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "00724fdd0bb5bfa66f466cbf459e590a5d7c0c9d",
+          "deletedAt": "2014-08-29",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 11,
+          "line": "\"description\": \"Lightweight Promise based XHR library\","
+        },
+        {
+          "addedSha": "0d0b8370205f62c65ee2e51262dab6bc48569548",
+          "addedAt": "2014-08-27",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "f4a334e17c3031970a5cb614551d057948f7d09f",
+          "deletedAt": "2014-09-12",
+          "deletedBy": "mzabriskie",
+          "ageDays": 16.5,
+          "line": "\"start\": \"node ./sandbox/index.js\""
+        },
+        {
+          "addedSha": "00724fdd0bb5bfa66f466cbf459e590a5d7c0c9d",
+          "addedAt": "2014-08-29",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "3b7132ee1b9dffa4927735e49598dcd92836fcb2",
+          "deletedAt": "2014-09-12",
+          "deletedBy": "mzabriskie",
+          "ageDays": 13.9,
+          "line": "\"version\": \"0.1.0\","
+        },
+        {
+          "addedSha": "00724fdd0bb5bfa66f466cbf459e590a5d7c0c9d",
+          "addedAt": "2014-08-29",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "3b7132ee1b9dffa4927735e49598dcd92836fcb2",
+          "deletedAt": "2014-09-12",
+          "deletedBy": "mzabriskie",
+          "ageDays": 13.9,
+          "line": "\"description\": \"Promise based XHR library\","
+        },
+        {
+          "addedSha": "3b7132ee1b9dffa4927735e49598dcd92836fcb2",
+          "addedAt": "2014-09-12",
+          "addedBy": "mzabriskie",
+          "deletedSha": "629c576f23e2983382ff7251a5c18b44249b0d2b",
+          "deletedAt": "2014-09-12",
+          "deletedBy": "mzabriskie",
+          "ageDays": 0.1,
+          "line": "\"version\": \"0.2.0\","
+        },
+        {
+          "addedSha": "629c576f23e2983382ff7251a5c18b44249b0d2b",
+          "addedAt": "2014-09-12",
+          "addedBy": "mzabriskie",
+          "deletedSha": "f2fd9f7dd3a644ddbd25b4bfe59c86313b24a443",
+          "deletedAt": "2014-09-15",
+          "deletedBy": "mzabriskie",
+          "ageDays": 2.2,
+          "line": "\"version\": \"0.2.1\","
+        }
+      ]
+    },
+    {
+      "path": "lib/axios.js",
+      "added": 659,
+      "deleted": 660,
+      "churned": 280,
+      "churnRatePct": 42.5,
+      "selfChurn": 179,
+      "otherChurn": 101,
+      "samples": [
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "28073866a5c10e039c233d9ae22fe8bb95442bb7",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 7.7,
+          "line": "reject(new Error('Can\\'t connect to ' + JSON.stringify(options.url)));"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "28073866a5c10e039c233d9ae22fe8bb95442bb7",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 7.7,
+          "line": "request.send(options.data || null);"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "cd221704cf4b0aa7a3dd01006b350d4d2a239e6b",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 7.7,
+          "line": "method: 'get'"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "cd221704cf4b0aa7a3dd01006b350d4d2a239e6b",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 7.7,
+          "line": "resolve(parse(request.responseText));"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "cd221704cf4b0aa7a3dd01006b350d4d2a239e6b",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 7.7,
+          "line": "request.setRequestHeader(key, headers[key]);"
+        },
+        {
+          "addedSha": "28073866a5c10e039c233d9ae22fe8bb95442bb7",
+          "addedAt": "2014-08-26",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "cd221704cf4b0aa7a3dd01006b350d4d2a239e6b",
+          "deletedAt": "2014-08-26",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 0.1,
+          "line": "request.send(options.data ? JSON.stringify(options.data) : null);"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "function axios(options) {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "var request = new(XMLHttpRequest || ActiveXObject)('MSXML2.XMLHTTP.3.0');"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "function onload() {"
+        },
+        {
+          "addedSha": "9c2528d9cca7c7be0b0e5c6cc58f2ad13a1d5689",
+          "addedAt": "2014-08-18",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "9096d34186d5a5148f06c07854b21d6cc8035e96",
+          "deletedAt": "2014-08-27",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 8.3,
+          "line": "if (request.status >= 200 && request.status < 300) {"
+        }
+      ]
+    },
+    {
+      "path": "lib/utils.js",
+      "added": 1942,
+      "deleted": 904,
+      "churned": 273,
+      "churnRatePct": 14.1,
+      "selfChurn": 223,
+      "otherChurn": 50,
+      "samples": [
+        {
+          "addedSha": "cec3482ff7c5d7877e1343e4aa7e18e3a76a1456",
+          "addedAt": "2014-08-28",
+          "addedBy": "Matt Zabriskie",
+          "deletedSha": "7aef479c7e50298217a5cd06ebe3747c85c084fb",
+          "deletedAt": "2014-08-29",
+          "deletedBy": "Matt Zabriskie",
+          "ageDays": 0.5,
+          "line": "return toString.call(val) !== '[object Blob]';"
+        },
+        {
+          "addedSha": "60a82ef4245708fdb25cc8e6e71d8bc2798debb8",
+          "addedAt": "2015-03-18",
+          "addedBy": "mzabriskie",
+          "deletedSha": "60a82ef4245708fdb25cc8e6e71d8bc2798debb8",
+          "deletedAt": "2015-03-18",
+          "deletedBy": "mzabriskie",
+          "ageDays": 0,
+          "line": "'use strict';"
+        },
+        {
+          "addedSha": "a98c61f458036d28c66c676788bd22f7c7c3c7d5",
+          "addedAt": "2015-03-17",
+          "addedBy": "mzabriskie",
+          "deletedSha": "60a82ef4245708fdb25cc8e6e71d8bc2798debb8",
+          "deletedAt": "2015-03-18",
+          "deletedBy": "mzabriskie",
+          "ageDays": 1.1,
+          "line": "'use strict';"
+        },
+        {
+          "addedSha": "a98c61f458036d28c66c676788bd22f7c7c3c7d5",
+          "addedAt": "2015-03-17",
+          "addedBy": "mzabriskie",
+          "deletedSha": "60a82ef4245708fdb25cc8e6e71d8bc2798debb8",
+          "deletedAt": "2015-03-18",
+          "deletedBy": "mzabriskie",
+          "ageDays": 1.1,
+          "line": "'use strict';"
+        },
+        {
+          "addedSha": "a98c61f458036d28c66c676788bd22f7c7c3c7d5",
+          "addedAt": "2015-03-17",
+          "addedBy": "mzabriskie",
+          "deletedSha": "60a82ef4245708fdb25cc8e6e71d8bc2798debb8",
+          "deletedAt": "2015-03-18",
+          "deletedBy": "mzabriskie",
+          "ageDays": 1.1,
+          "line": "'use strict';"
+        },
+        {
+          "addedSha": "a98c61f458036d28c66c676788bd22f7c7c3c7d5",
+          "addedAt": "2015-03-17",
+          "addedBy": "mzabriskie",
+          "deletedSha": "60a82ef4245708fdb25cc8e6e71d8bc2798debb8",
+          "deletedAt": "2015-03-18",
+          "deletedBy": "mzabriskie",
+          "ageDays": 1.1,
+          "line": "'use strict';"
+        },
+        {
+          "addedSha": "a98c61f458036d28c66c676788bd22f7c7c3c7d5",
+          "addedAt": "2015-03-17",
+          "addedBy": "mzabriskie",
+          "deletedSha": "60a82ef4245708fdb25cc8e6e71d8bc2798debb8",
+          "deletedAt": "2015-03-18",
+          "deletedBy": "mzabriskie",
+          "ageDays": 1.1,
+          "line": "'use strict';"
+        },
+        {
+          "addedSha": "a98c61f458036d28c66c676788bd22f7c7c3c7d5",
+          "addedAt": "2015-03-17",
+          "addedBy": "mzabriskie",
+          "deletedSha": "60a82ef4245708fdb25cc8e6e71d8bc2798debb8",
+          "deletedAt": "2015-03-18",
+          "deletedBy": "mzabriskie",
+          "ageDays": 1.1,
+          "line": "'use strict';"
+        },
+        {
+          "addedSha": "a98c61f458036d28c66c676788bd22f7c7c3c7d5",
+          "addedAt": "2015-03-17",
+          "addedBy": "mzabriskie",
+          "deletedSha": "60a82ef4245708fdb25cc8e6e71d8bc2798debb8",
+          "deletedAt": "2015-03-18",
+          "deletedBy": "mzabriskie",
+          "ageDays": 1.1,
+          "line": "'use strict';"
+        },
+        {
+          "addedSha": "a98c61f458036d28c66c676788bd22f7c7c3c7d5",
+          "addedAt": "2015-03-17",
+          "addedBy": "mzabriskie",
+          "deletedSha": "60a82ef4245708fdb25cc8e6e71d8bc2798debb8",
+          "deletedAt": "2015-03-18",
+          "deletedBy": "mzabriskie",
+          "ageDays": 1.1,
+          "line": "'use strict';"
+        }
+      ]
+    },
+    {
+      "path": "index.d.ts",
+      "added": 2148,
+      "deleted": 1660,
+      "churned": 272,
+      "churnRatePct": 12.7,
+      "selfChurn": 111,
+      "otherChurn": 161,
+      "samples": [
+        {
+          "addedSha": "d07e648c3059dd5eae5f8efb135bbf40bc585e8e",
+          "addedAt": "2017-12-21",
+          "addedBy": "Evan Shortiss",
+          "deletedSha": "d07e648c3059dd5eae5f8efb135bbf40bc585e8e",
+          "deletedAt": "2017-12-21",
+          "deletedBy": "Evan Shortiss",
+          "ageDays": 0,
+          "line": "(config: AxiosRequestConfig): AxiosPromise;"
+        },
+        {
+          "addedSha": "d07e648c3059dd5eae5f8efb135bbf40bc585e8e",
+          "addedAt": "2017-12-21",
+          "addedBy": "Evan Shortiss",
+          "deletedSha": "d07e648c3059dd5eae5f8efb135bbf40bc585e8e",
+          "deletedAt": "2017-12-21",
+          "deletedBy": "Evan Shortiss",
+          "ageDays": 0,
+          "line": "(url: string, config?: AxiosRequestConfig): AxiosPromise;"
+        },
+        {
+          "addedSha": "4eeb3b17e28581e6931ad7b78dcc025cf3f99bc8",
+          "addedAt": "2021-09-05",
+          "addedBy": "Carlos Chida",
+          "deletedSha": "92b29d2775bd4cadb3f077fe639fa29c8cf0de8e",
+          "deletedAt": "2021-09-05",
+          "deletedBy": "Remco Haszing",
+          "ageDays": 0,
+          "line": "request<T = any, R = AxiosResponse<T>> (config: AxiosRequestConfig<T>): Promise<R>;"
+        },
+        {
+          "addedSha": "4eeb3b17e28581e6931ad7b78dcc025cf3f99bc8",
+          "addedAt": "2021-09-05",
+          "addedBy": "Carlos Chida",
+          "deletedSha": "92b29d2775bd4cadb3f077fe639fa29c8cf0de8e",
+          "deletedAt": "2021-09-05",
+          "deletedBy": "Remco Haszing",
+          "ageDays": 0,
+          "line": "get<T = any, R = AxiosResponse<T>>(url: string, config?: AxiosRequestConfig<T>): Promise<R>;"
+        },
+        {
+          "addedSha": "4eeb3b17e28581e6931ad7b78dcc025cf3f99bc8",
+          "addedAt": "2021-09-05",
+          "addedBy": "Carlos Chida",
+          "deletedSha": "92b29d2775bd4cadb3f077fe639fa29c8cf0de8e",
+          "deletedAt": "2021-09-05",
+          "deletedBy": "Remco Haszing",
+          "ageDays": 0,
+          "line": "delete<T = any, R = AxiosResponse<T>>(url: string, config?: AxiosRequestConfig<T>): Promise<R>;"
+        },
+        {
+          "addedSha": "4eeb3b17e28581e6931ad7b78dcc025cf3f99bc8",
+          "addedAt": "2021-09-05",
+          "addedBy": "Carlos Chida",
+          "deletedSha": "92b29d2775bd4cadb3f077fe639fa29c8cf0de8e",
+          "deletedAt": "2021-09-05",
+          "deletedBy": "Remco Haszing",
+          "ageDays": 0,
+          "line": "head<T = any, R = AxiosResponse<T>>(url: string, config?: AxiosRequestConfig<T>): Promise<R>;"
+        },
+        {
+          "addedSha": "4eeb3b17e28581e6931ad7b78dcc025cf3f99bc8",
+          "addedAt": "2021-09-05",
+          "addedBy": "Carlos Chida",
+          "deletedSha": "92b29d2775bd4cadb3f077fe639fa29c8cf0de8e",
+          "deletedAt": "2021-09-05",
+          "deletedBy": "Remco Haszing",
+          "ageDays": 0,
+          "line": "options<T = any, R = AxiosResponse<T>>(url: string, config?: AxiosRequestConfig<T>): Promise<R>;"
+        },
+        {
+          "addedSha": "4eeb3b17e28581e6931ad7b78dcc025cf3f99bc8",
+          "addedAt": "2021-09-05",
+          "addedBy": "Carlos Chida",
+          "deletedSha": "92b29d2775bd4cadb3f077fe639fa29c8cf0de8e",
+          "deletedAt": "2021-09-05",
+          "deletedBy": "Remco Haszing",
+          "ageDays": 0,
+          "line": "post<T = any, R = AxiosResponse<T>>(url: string, data?: T, config?: AxiosRequestConfig<T>): Promise<R>;"
+        },
+        {
+          "addedSha": "4eeb3b17e28581e6931ad7b78dcc025cf3f99bc8",
+          "addedAt": "2021-09-05",
+          "addedBy": "Carlos Chida",
+          "deletedSha": "92b29d2775bd4cadb3f077fe639fa29c8cf0de8e",
+          "deletedAt": "2021-09-05",
+          "deletedBy": "Remco Haszing",
+          "ageDays": 0,
+          "line": "put<T = any, R = AxiosResponse<T>>(url: string, data?: T, config?: AxiosRequestConfig<T>): Promise<R>;"
+        },
+        {
+          "addedSha": "4eeb3b17e28581e6931ad7b78dcc025cf3f99bc8",
+          "addedAt": "2021-09-05",
+          "addedBy": "Carlos Chida",
+          "deletedSha": "92b29d2775bd4cadb3f077fe639fa29c8cf0de8e",
+          "deletedAt": "2021-09-05",
+          "deletedBy": "Remco Haszing",
+          "ageDays": 0,
+          "line": "patch<T = any, R = AxiosResponse<T>>(url: string, data?: T, config?: AxiosRequestConfig<T>): Promise<R>;"
+        }
+      ]
+    }
+  ]
+}
