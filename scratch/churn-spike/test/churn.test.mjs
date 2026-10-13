@@ -12,6 +12,7 @@
  */
 
 import test from 'node:test';
+
 import assert from 'node:assert/strict';
 
 import { parseRepo, WINDOW_DAYS } from '../analyze.mjs';
