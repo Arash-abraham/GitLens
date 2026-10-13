@@ -14,6 +14,42 @@ node scratch/churn-spike/analyze.mjs <git-url> [...]      # any public repo
 Repos are cloned to `scratch/churn-spike/.repos/` (gitignored) and results written to
 `scratch/churn-spike/out/*.json`.
 
+## Tests
+
+```bash
+npm run test:spike
+# or, with no install step at all:
+node --test "scratch/churn-spike/test/*.test.mjs"
+```
+
+11 tests, 11 passing, ~0.5 s. They use **Node's built-in runner only** — no framework, no
+install, no registry. That is deliberate and load-bearing: `npm ci` is currently broken
+because the lockfile points at a private mirror (plan defect **T3**), so a test suite that
+needed `npm install` would not run anywhere but the author's machine. Do not "upgrade" these
+to vitest until the lockfile is fixed.
+
+The tests are **golden-repo** tests: `test/fixtures.mjs` builds tiny git repositories from
+scratch with pinned dates, pinned authors and pinned content, so every expected value is an
+exact integer derived by hand rather than read back from the implementation. Covered:
+self-churn, other-churn, outside-window, the inclusive 21-day boundary, never-deleted lines,
+LIFO matching of duplicate lines, churn spanning a rename, blank-line handling, whole-file
+deletion, and expiry of stale pending lines.
+
+**Two real bugs were found by writing these**, both of which also affected the real numbers:
+
+1. **Off-by-one at the window boundary.** Expiry used `ts <= cutoff`, which dropped a line
+   whose age was *exactly* 21 days, making the window exclusive where the metric contract
+   says inclusive. Fixed to `ts < cutoff`. This did not move the headline results (real
+   timestamps carry a time-of-day, so an exact 21.000-day gap essentially never occurs) but
+   it would have silently shifted any future synthetic or date-only data.
+2. **A racy fixture builder** — `execFile` was promisified into `run` but the helper called
+   the un-promisified version, so `await` returned a `ChildProcess` instead of waiting and
+   commits fired out of order, producing empty diffs.
+
+Falsifiable test #10 pins the known *file-deletion = 100 % churn* false positive to its
+current behaviour on purpose, so that fixing it shows up as a deliberate red→green change
+rather than a surprise later.
+
 ---
 
 ## Metric definition (v0, deterministic)
@@ -43,8 +79,8 @@ Measured 2026-10-13, default branch, full history, single Node process, no datab
 |---|---|---|
 | URL | `axios/axios` | `expressjs/express` |
 | History | 2 223 commits, 2014-08-18 → 2026-10-12 | 6 181 commits, 2009-06-26 → 2026-10-09 |
-| Clone | 2.7 s | 1.8 s |
-| **Parse** | **4.3 s** (313 k added lines → ~73 k lines/s) | **1.0 s** (113 k added lines → ~113 k lines/s) |
+| Clone | 2.3 s | 1.3 s |
+| **Parse** | **4.1 s** (313 k added lines → ~76 k lines/s) | **1.0 s** (113 k added lines → ~113 k lines/s) |
 | Files touched | 771 | 872 |
 | Lines added / deleted | 312 908 / 227 003 | 113 459 / 90 999 |
 | **Churned ≤21d** | **90 947 → 29.07 %** | **32 837 → 28.94 %** |
@@ -170,6 +206,8 @@ appears to vanish. Always verify renames against the unfiltered diff.
 
 Do **not** turn this into the real pipeline yet. The cheapest high-value follow-up is a half-day:
 
+0. Turn the golden fixtures into the project's permanent test suite. They already encode the
+   metric contract; moving them out of `scratch/` is the cheapest real progress available.
 1. Re-run on the five T8 repos (incl. one ≥300k-commit monorepo and one LFS repo) to get the real
    throughput and memory numbers the plan's exit criteria demand.
 2. Fix the *deleted-file* false positive and re-measure — the 29 % figure will move, and knowing

@@ -108,9 +108,13 @@ class PendingStack {
 	get size() {
 		return this.items.length - this.head;
 	}
-	/** Drop everything at or before `cutoff` (entries are chronological). */
+	/**
+	 * Drop everything strictly older than `cutoff` (entries are chronological).
+	 * Strictly older — not `<=` — because the window is INCLUSIVE: a line whose
+	 * age is exactly WINDOW_DAYS still counts as churn.
+	 */
 	expire(cutoff) {
-		while (this.head < this.items.length && this.items[this.head].ts <= cutoff) this.head++;
+		while (this.head < this.items.length && this.items[this.head].ts < cutoff) this.head++;
 		if (this.head > 0 && this.head * 2 > this.items.length) {
 			this.items = this.items.slice(this.head);
 			this.head = 0;
@@ -372,7 +376,7 @@ async function parseRepo(repoDir) {
 	// periodic global expiry, so memory stays bounded on large histories
 	function expireGlobally(ts) {
 		const cutoff = ts - WINDOW_MS;
-		while (globalHead < globalOrder.length && globalOrder[globalHead].ts <= cutoff) {
+		while (globalHead < globalOrder.length && globalOrder[globalHead].ts < cutoff) {
 			const e = globalOrder[globalHead++];
 			const stack = pending.get(e.path)?.get(e.content);
 			if (stack) stack.expire(e.ts);
@@ -548,7 +552,15 @@ async function main() {
 	console.log(`\nWrote JSON results to ${OUT_DIR}/`);
 }
 
-main().catch(err => {
-	console.error(err);
-	process.exit(1);
-});
+// Exported for the test suite; only auto-run when invoked directly.
+export { parseRepo, summarize, isGenerated, isBot, PendingStack, WINDOW_DAYS };
+
+const invokedDirectly =
+	process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1]);
+
+if (invokedDirectly) {
+	main().catch(err => {
+		console.error(err);
+		process.exit(1);
+	});
+}

@@ -16,9 +16,9 @@
     "selfChurn": 83928,
     "otherChurn": 7019,
     "botAddedChurn": 5310,
-    "cloneSec": 0,
-    "parseSec": 4,
-    "linesPerSec": 78227,
+    "cloneSec": 2.3,
+    "parseSec": 4.1,
+    "linesPerSec": 76319,
     "generatedChurn": 79374,
     "generatedChurnSharePct": 87.3
   },
